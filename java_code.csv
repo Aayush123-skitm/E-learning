@@ -1,0 +1,201 @@
+﻿question,example
+What is JVM?,JVM executes Java bytecode and provides the runtime environment.
+What is JDK?,The Java Development Kit contains tools for developing Java programs.
+What is JRE?,The Java Runtime Environment provides components needed to run Java applications.
+Why is Java platform independent?,Java source is compiled to bytecode that can run on compatible JVMs.
+What is bytecode?,Intermediate code produced by the Java compiler and executed by the JVM.
+What is a class?,A blueprint defining data and behavior for objects.
+What is an object?,An instance of a class.
+What is encapsulation?,Bundling data and methods and controlling access to internal state.
+What is inheritance?,A mechanism where one class derives properties and behavior from another.
+What is polymorphism?,The ability to use a common interface with different underlying implementations.
+What is abstraction?,Hiding implementation details and exposing essential behavior.
+What is method overloading?,Defining multiple methods with the same name but different parameter lists.
+What is method overriding?,A subclass providing its own implementation of an inherited method.
+Overloading vs overriding?,Overloading is resolved by parameter signatures; overriding replaces inherited behavior.
+What is an interface?,A type defining a contract that implementing classes must fulfill.
+What is an abstract class?,A class that may contain abstract methods and cannot be directly instantiated.
+Can Java support multiple inheritance of classes?,"No, a class cannot extend multiple classes."
+How does Java support multiple inheritance of type?,Through implementing multiple interfaces.
+What is a constructor?,A special member used to initialize objects.
+Can constructors be inherited?,No.
+What is this keyword?,It refers to the current object.
+What is super?,It refers to the immediate superclass context.
+What is static?,It makes a member belong to the class rather than individual instances.
+What is final?,"It can prevent reassignment, overriding, or inheritance depending on usage."
+What is finally?,A block generally used for cleanup that executes after try/catch processing.
+What is finalize?,A legacy mechanism associated with object finalization; modern Java discourages relying on it.
+What is exception handling?,"Handling abnormal conditions using mechanisms such as try, catch, and finally."
+Checked vs unchecked exceptions?,Checked exceptions are generally verified by the compiler; unchecked exceptions derive from RuntimeException.
+What is throw?,It explicitly throws an exception.
+What is throws?,It declares exceptions that a method may propagate.
+What is garbage collection?,Automatic reclamation of unreachable objects.
+What is a memory leak in Java?,Objects remain reachable unintentionally and therefore cannot be garbage-collected.
+What is String immutable?,A String object's content cannot be changed after creation.
+String vs StringBuilder?,String is immutable; StringBuilder is mutable and suited to repeated modifications.
+StringBuilder vs StringBuffer?,StringBuffer provides synchronized methods; StringBuilder is generally preferred for single-threaded use.
+What is the String pool?,A JVM-managed pool for reusing certain String instances.
+What is == vs equals()?,== compares primitive values or object references; equals() is intended for logical equality when overridden.
+What is hashCode()?,It returns a hash value used by hash-based collections.
+Why override equals and hashCode together?,Equal objects should produce the same hash code for hash-based collections.
+What is ArrayList?,A resizable array implementation of List.
+What is LinkedList?,A linked-node implementation of List and Deque.
+ArrayList vs LinkedList?,ArrayList offers fast indexed access; LinkedList is node-based and supports efficient insertion/removal at known positions.
+What is HashMap?,A map implementation storing key-value associations using hashing.
+HashMap vs Hashtable?,HashMap is generally unsynchronized and permits nulls; Hashtable is legacy synchronized and does not permit null keys/values.
+What is HashSet?,A Set implementation that stores unique elements.
+What is TreeSet?,A sorted Set implementation.
+What is an iterator?,An object used to traverse collection elements.
+What is generics?,A feature providing compile-time type safety for parameterized types.
+What is autoboxing?,Automatic conversion from a primitive to its wrapper type.
+What is unboxing?,Automatic conversion from a wrapper type to its primitive type.
+What is a wrapper class?,A class representing a primitive value as an object.
+What is multithreading?,Executing multiple threads concurrently within a process.
+What is a thread?,A lightweight unit of execution.
+What is synchronization?,Controlling concurrent access to shared resources.
+What is deadlock?,A state where threads wait indefinitely for resources held by each other.
+What is race condition?,Program behavior depends on timing of concurrent operations.
+What is thread-safe code?,Code that behaves correctly when accessed concurrently under its intended usage.
+What is lambda expression?,A concise way to represent a function-like behavior for functional interfaces.
+What is a functional interface?,An interface with exactly one abstract method.
+What is Stream API?,An API for processing sequences of data through declarative operations.
+map vs filter in streams?,map transforms elements; filter keeps elements satisfying a condition.
+What is Optional?,A container type intended to model a present or absent value.
+What is serialization?,Converting an object state into a form suitable for storage or transmission.
+What is deserialization?,Reconstructing object data from a serialized representation.
+What is JDBC?,Java Database Connectivity API for interacting with relational databases.
+What is an annotation?,Metadata attached to program elements.
+What is package?,A namespace used to organize related classes and interfaces.
+What are access modifiers?,"Keywords controlling accessibility, such as public, protected, private, and package-private."
+What is default access?,A member with no modifier is accessible within the same package.
+What is method signature?,A method's name plus parameter types; return type alone does not distinguish overloads.
+Can Java pass objects by reference?,"Java passes arguments by value; for objects, the value passed is a copy of the reference."
+What is pass by value in Java?,A copy of each argument value is passed to the method.
+What is immutable object?,An object whose observable state cannot change after construction.
+What is enum?,A type representing a fixed set of named constants.
+What is varargs?,A syntax allowing a method to accept a variable number of arguments.
+What is type casting?,Converting a value from one type to another compatible type.
+Upcasting vs downcasting?,Upcasting moves to a superclass reference; downcasting converts a reference to a subclass type.
+What is ClassCastException?,A runtime exception caused by an invalid reference cast.
+What is NullPointerException?,An exception commonly caused by using a null reference where an object is required.
+What is stack memory?,Memory commonly associated with method frames and local variables.
+What is heap memory?,Memory area where Java objects are generally allocated.
+What is recursion?,A method calling itself with a base case.
+What is Big O?,A notation describing asymptotic growth of an algorithm.
+What is binary search?,A search technique for sorted data that repeatedly halves the search range.
+What is Array?,A fixed-size indexed collection of elements of one type.
+Array vs ArrayList?,Arrays have fixed length; ArrayList grows dynamically.
+What is a singleton class?,A design intended to restrict a class to one shared instance.
+What is immutable String advantage?,"It supports safe sharing, caching, and predictable behavior."
+What is constructor overloading?,Defining multiple constructors with different parameter lists.
+Can a static method be overridden?,Static methods are hidden rather than overridden.
+Can final methods be overridden?,No.
+Can a final class be inherited?,No.
+What is an inner class?,A class declared within another class.
+What is anonymous class?,A class declared and instantiated without a named class declaration.
+What is an exception hierarchy?,A class hierarchy rooted at Throwable with Error and Exception branches.
+What is try-with-resources?,A construct that automatically closes AutoCloseable resources.
+What is an interface default method?,An interface method with a provided implementation.
+What is a checked exception example?,IOException is a common checked exception.
+What is an unchecked exception example?,NullPointerException is a common unchecked exception.
+What is dependency injection?,Supplying an object's dependencies from outside rather than constructing them internally.
+What is an API?,A defined interface through which software components interact.
+What is Maven?,A build and dependency management tool commonly used for Java projects.
+What is unit testing in Java?,"Testing small program units, commonly with frameworks such as JUnit."
+What is the main method signature?,public static void main(String[] args) is the conventional entry point.
+Write a Java program to print Hello World.,Example: Hello World
+Write a Java program to add two integers.,Example: 10 and 20 gives 30.
+Write a Java program to find largest of two numbers.,Example: 8 and 5 gives 8.
+Write a Java program to find largest of three numbers.,"Example: 4,9,6 gives 9."
+Write a Java program to check even or odd.,Example: 7 is odd.
+"Write a Java program to check positive, negative, or zero.",Example: -3 is negative.
+Write a Java program to calculate factorial.,Example: factorial of 5 is 120.
+Write a Java program to print multiplication table.,"Example: table of 5 starts 5,10,15."
+Write a Java program to reverse a number.,Example: 1234 becomes 4321.
+Write a Java program to check palindrome number.,Example: 121 is palindrome.
+Write a Java program to check prime number.,Example: 17 is prime.
+Write a Java program to print primes in a range.,"Example: 1 to 10 gives 2,3,5,7."
+Write a Java program to generate Fibonacci series.,"Example: first 7 terms are 0,1,1,2,3,5,8."
+Write a Java program to find sum of digits.,Example: 123 gives 6.
+Write a Java program to count digits.,Example: 9876 has 4 digits.
+Write a Java program to find GCD.,Example: GCD of 12 and 18 is 6.
+Write a Java program to find LCM.,Example: LCM of 4 and 6 is 12.
+Write a Java program to swap two numbers using a temporary variable.,Example: 5 and 9 become 9 and 5.
+Write a Java program to find sum of array elements.,"Example: [1,2,3,4] gives 10."
+Write a Java program to find maximum array element.,"Example: [3,8,2] gives 8."
+Write a Java program to find minimum array element.,"Example: [3,8,2] gives 2."
+Write a Java program to count even array elements.,"Example: [1,2,4,5] has 2 even numbers."
+Write a Java program to reverse an array.,"Example: [1,2,3] becomes [3,2,1]."
+Write a Java program to search using linear search.,"Example: search 7 in [3,7,9] finds 7."
+Write a Java program to sort an array using bubble sort.,"Example: [3,1,2] becomes [1,2,3]."
+Write a Java program to remove duplicate array elements.,"Example: [1,2,2,3] becomes [1,2,3]."
+Write a Java program to find second largest element.,"Example: [5,9,2,7] gives 7."
+Write a Java program to find average of array.,"Example: [10,20,30] gives 20."
+Write a Java program to reverse a string.,Example: 'hello' becomes 'olleh'.
+Write a Java program to check string palindrome.,Example: 'madam' is palindrome.
+Write a Java program to count vowels in a string.,Example: 'hello' has 2 vowels.
+Write a Java program to count words in a string.,Example: 'I love Java' has 3 words.
+Write a Java program to count uppercase and lowercase letters.,Example: 'AbC' has 2 uppercase and 1 lowercase.
+Write a Java program to find string length.,Example: 'hello' has length 5.
+Write a Java program to compare two strings.,Example: 'abc' and 'abc' are equal.
+Write a Java program to concatenate two strings.,Example: 'hello' + 'world' gives 'helloworld'.
+Write a Java program to remove spaces from a string.,Example: 'a b c' becomes 'abc'.
+Write a Java program to find character frequency.,"Example: 'banana' has a:3, n:2, b:1."
+Write a Java program to find first non-repeating character.,Example: 'swiss' gives 'w'.
+Create a Student class with name and marks.,Example: student Aayush with marks 85.
+Create a class demonstrating constructor.,Example: creating Student initializes its name.
+Create a program demonstrating method overloading.,"Example: add(2,3) and add(2,3,4)."
+Create a program demonstrating method overriding.,Example: Dog overrides Animal sound().
+Create a program demonstrating inheritance.,Example: Car extends Vehicle.
+Create an abstract class example.,Example: Shape declares area().
+Create an interface example.,Example: Printable defines print().
+Create a Java program using ArrayList.,Example: store and print 3 student names.
+Create a Java program using HashMap.,Example: map roll numbers to names.
+Create a Java program using HashSet.,Example: duplicate numbers are stored only once.
+Create a Java program using Stack.,"Example: push 10,20 then pop returns 20."
+Create a Java program using Queue.,"Example: add 10,20 then remove returns 10."
+Create a Java program using PriorityQueue.,Example: smallest integer is retrieved first.
+Create a Java program using Collections.sort.,"Example: [3,1,2] becomes [1,2,3]."
+Create a Java program using Comparator.,Example: sort students by marks.
+Create a Java program using lambda expression.,Example: print each number using forEach.
+Create a Java program using Stream filter.,"Example: filter even numbers from [1,2,3,4]."
+Create a Java program using Stream map.,"Example: double every number in [1,2,3]."
+Create a Java program using Optional.,Example: safely handle a possibly missing name.
+Create a Java program with try-catch.,Example: divide by zero is handled without crashing.
+Create a Java program with custom exception.,Example: reject age below 18.
+Create a Java program using finally.,Example: cleanup message runs after exception handling.
+Create a Java program to read a file.,Example: print lines from a text file.
+Create a Java program to write a file.,Example: write 'Hello Java' to a file.
+Create a Java program to count file lines.,Example: a file with 3 lines returns 3.
+Create a Java program to calculate simple interest.,"Example: P=1000,R=10,T=2 gives 200."
+Create a Java program to calculate compound interest.,"Example: P=1000,R=10%,T=2 gives 210."
+Create a Java program to convert Celsius to Fahrenheit.,Example: 0°C becomes 32°F.
+Create a Java program to calculate circle area.,Example: radius 2 gives approximately 12.57.
+Create a Java program to check leap year.,Example: 2024 is a leap year.
+Create a Java program to print numbers 1 to N.,Example: N=5 prints 1 2 3 4 5.
+Create a Java program to print a star triangle.,"Example: 3 rows produce *, **, ***."
+Create a Java program to print a number pyramid.,"Example: 3 rows can produce 1,121,12321."
+Create a Java program to find missing number.,"Example: [1,2,4,5] has missing 3."
+Create a Java program to find duplicate number.,"Example: [1,2,3,2] has duplicate 2."
+Create a Java program to rotate array left.,"Example: [1,2,3] becomes [2,3,1]."
+Create a Java program to rotate array right.,"Example: [1,2,3] becomes [3,1,2]."
+Create a Java program to check Armstrong number.,Example: 153 is Armstrong.
+Create a Java program to check perfect number.,Example: 6 is perfect.
+Create a Java program to count set bits.,Example: binary 1011 has 3 set bits.
+Create a Java program to check power of two.,Example: 16 is a power of two.
+Create a Java calculator using switch.,Example: 10 + 5 gives 15.
+Create a Java program to print ASCII value.,Example: ASCII value of A is 65.
+Create a Java program to convert lowercase to uppercase.,Example: 'a' becomes 'A'.
+Create a Java program to implement binary search.,"Example: search 7 in [1,3,7,9] finds 7."
+Create a Java program to implement selection sort.,"Example: [3,1,2] becomes [1,2,3]."
+Create a Java program to implement insertion sort.,"Example: [3,1,2] becomes [1,2,3]."
+Create a Java program for recursive factorial.,Example: factorial(4) returns 24.
+Create a Java program for recursive Fibonacci.,"Example: Fibonacci sequence starts 0,1,1,2,3."
+Create a Java program to implement stack using array.,"Example: push 10,20 then pop gives 20."
+Create a Java program to implement queue using array.,"Example: enqueue 10,20 then dequeue gives 10."
+Create a Java program for singly linked list.,Example: 10->20->30.
+Create a Java program to reverse linked list.,Example: 10->20->30 becomes 30->20->10.
+Create a Java program to merge two arrays.,"Example: [1,2] and [3,4] gives [1,2,3,4]."
+Create a Java program to add two matrices.,"Example: [[1,2],[3,4]] + [[1,1],[1,1]] gives [[2,3],[4,5]]."
+Create a Java program to transpose matrix.,"Example: [[1,2],[3,4]] becomes [[1,3],[2,4]]."
+Create a Java program to find diagonal sum.,"Example: [[1,2],[3,4]] gives 5."

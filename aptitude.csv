@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,25% of 240 is?,50,60,70,80,op_b
+2,If a train travels 120 km in 3 hours, speed is?,30 km/h,40 km/h,50 km/h,60 km/h,op_b
+3,Find the next number: 2,4,8,16,?,24,32,30,36,op_b
+4,Average of 15,20,25 is?,15,20,25,30,op_b
+5,Profit is calculated as?,CP-SP,SP-CP,CP+SP,SP/CP,op_b
+6,Opposite of "Increase" is?,Grow,Expand,Decrease,Add,op_c
+7,If CAT is coded as DBU, DOG is coded as?,EPH,EOH,DPG,FQH,op_a
+8,Find odd one out?,Apple,Banana,Car,Orange,op_c
+9,Simple interest formula is?,P×R×T/100,P+R+T,P/R,T/P,op_a
+10,If 5 workers complete work in 10 days, total work is?,50 worker-days,15 days,5 days,10 days,op_a
+11,Find next: 5,10,20,40,?,60,80,100,120,op_b
+12,If SOUTH is written as HTUOS, NORTH is?,HTRON,NORTH,HRTON,HTORN,op_a
+13,Antonym of "Honest" is?,Truthful,Fair,Dishonest,Kind,op_c
+14,15% of 400 is?,50,60,70,80,op_b
+15,A man walks 5 km east then turns left. Direction now?,North,South,West,East,op_a
+16,Ratio of 20 and 40?,1:2,2:1,3:2,4:1,op_a
+17,Find missing number: 3,6,9,12,?,18,15,16,14,20,op_a
+18,Which is a prime number?,21,29,33,39,op_b
+19,Cost price 500 selling price 600 profit percentage?,10%,20%,25%,30%,op_b
+20,If BOOK is coded as CPPL, PEN is coded as?,QFO,QEN,PFM,RFN,op_a
+21,Choose correct spelling?,Enviroment,Environment,Envirnoment,Environmant,op_b
+22,LCM of 6 and 8 is?,24,48,12,18,op_a
+23,Find odd one out?,Square,Triangle,Circle,Rectangle,op_c
+24,If today is Monday, after 10 days it will be?,Wednesday,Thursday,Friday,Saturday,op_b
+25,Square root of 225?,10,12,15,20,op_c
+26,Which number comes next: 1,4,9,16,?,20,25,30,36,op_b
+27,A person facing north turns right. Direction?,West,East,South,North,op_b
+28,Synonym of "Quick" is?,Slow,Fast,Late,Weak,op_b
+29,20% discount on 1000 gives discount?,100,150,200,250,op_c
+30,Find missing letter: A,C,E,G,?,I,J,H,K,L,op_d
+31,If 3x=27 then x=?,6,7,9,12,op_c
+32,Which is different?,January,March,Monday,July,op_c
+33,Average of 10 numbers is 20. Sum is?,100,200,300,400,op_b
+34,Antonym of "Ancient" is?,Old,Modern,Past,Historic,op_b
+35,Time taken to cover 150 km at 50 km/h?,2 hours,3 hours,4 hours,5 hours,op_b
+36,Find next: 100,90,80,70,?,60,50,40,30,op_a
+37,If PEN = 35 then BOOK = ? (A=1,B=2...),43,41,39,37,op_a
+38,Which one is not a programming language?,Python,Java,HTML,Car,op_d
+39,25×4 equals?,50,75,100,125,op_c
+40,A cube has how many faces?,4,6,8,12,op_b
+41,If 2:3 = x:12 then x=?,6,8,9,10,op_a
+42,Choose correct sentence?,He go school,He goes school,He going school,He gone school,op_b
+43,Find odd one out?,Keyboard,Mouse,Monitor,Table,op_d
+44,Profit on CP 1000 and SP 1200?,100,200,300,400,op_b
+45,Find next: 7,14,21,28,?,35,42,49,56,op_a
+46,Which is a vowel?,B,C,E,D,op_c
+47,If 8 men do work in 6 days, 12 men will do in?,3 days,4 days,5 days,6 days,op_b
+48,Meaning of "Brave"?,Coward,Fearful,Courageous,Weak,op_c
+49,What is 30% of 500?,100,150,200,250,op_b
+50,Direction opposite to East?,North,South,West,Right,op_c
+51,If 12% of a number is 60, the number is?,400,500,600,300,op_b
+52,Find next number: 3,9,27,81,?,162,243,324,729,op_b
+53,A car covers 240 km in 4 hours. Speed is?,40 km/h,50 km/h,60 km/h,80 km/h,op_c
+54,Simple interest on 2000 at 5% for 2 years?,100,150,200,250,op_c
+55,Which number is divisible by 3?,124,123,125,127,op_b
+56,Find odd one out?,Rose,Lily,Lotus,Potato,op_d
+57,If APPLE is coded as BQQMF, MANGO is coded as?,NBOHP,MBNGP,NBOGO,OCPOH,op_a
+58,Average of 5 numbers is 25. Sum is?,100,125,150,175,op_b
+59,Antonym of "Victory" is?,Success,Win,Defeat,Prize,op_c
+60,A person walks 4 km north then 3 km east. Distance from start?,5 km,6 km,7 km,8 km,op_a
+61,Find missing number: 10,20,40,80,?,120,160,180,200,op_b
+62,If CAT=24 and DOG=26 then BAT=?,21,23,25,27,op_b
+63,Which is different?,Pen,Pencil,Book,Chair,op_d
+64,Profit percentage if CP=400 and SP=500?,20%,25%,30%,15%,op_b
+65,Find next letter: B,D,F,H,?,J,K,L,I,M,op_d
+66,30 workers complete work in 10 days. 15 workers take?,5 days,10 days,15 days,20 days,op_d
+67,Synonym of "Large" is?,Small,Big,Tiny,Short,op_b
+68,25% increase on 800 gives?,900,1000,1100,1200,op_b
+69,Find odd one out?,2,3,5,9,op_d
+70,If yesterday was Sunday, tomorrow will be?,Monday,Tuesday,Wednesday,Thursday,op_b
+71,Which is not a prime number?,13,17,21,23,op_c
+72,The value of 5³ is?,25,75,100,125,op_d
+73,A shopkeeper gives 10% discount on 500. Selling price?,400,450,475,490,op_b
+74,Find next: 1,1,2,3,5,?,6,8,10,13,op_d
+75,Opposite of "Expand" is?,Increase,Open,Contract,Develop,op_c
+76,If EAST is coded as FBTU, WEST is?,XFTU,VFTU,WFTU,XEST,op_b
+77,Area of rectangle length 10 and breadth 5?,15,50,30,100,op_b
+78,Which word is correctly spelled?,Recieve,Receive,Receeve,Receve,op_b
+79,If x/5=10, x=?,15,25,50,100,op_c
+80,Find missing number: 4,8,16,32,?,48,64,96,128,op_b
+81,A clock shows 3:00. Angle between hands?,60°,90°,120°,180°,op_b
+82,Which one is different?,Gold,Silver,Copper,Wood,op_d
+83,Ratio of 45 minutes to 1 hour?,1:2,3:4,2:3,4:5,op_b
+84,Meaning of "Rapid"?,Slow,Fast,Weak,Late,op_b
+85,If 7 books cost 350, one book costs?,40,50,60,70,op_b
+86,Find next number: 11,22,33,44,?,55,66,77,88,op_a
+87,Which is a composite number?,11,13,15,17,op_c
+88,If SOUTH is coded as TPVUI, NORTH is?,OPSUI,OPSTH,NPSUI,NORTH,op_a
+89,15 workers finish work in 12 days. 30 workers finish in?,3 days,6 days,12 days,24 days,op_b
+90,Antonym of "Permanent" is?,Fixed,Temporary,Stable,Strong,op_b
+91,Value of 18×6?,98,108,118,128,op_b
+92,Find missing letter: Z,X,V,T,?,R,S,Q,P,O,op_a
+93,If CP=1000 and profit=20%, SP=?,1100,1200,1300,1400,op_b
+94,Which is not a data structure?,Array,Stack,Queue,Compiler,op_d
+95,Average of 20 and 40?,20,25,30,35,op_c
+96,Direction opposite to North?,East,West,South,Right,op_c
+97,Find next: 2,6,12,20,?,30,36,42,56,op_a
+98,Choose correct word?,Beautifull,Beautiful,Beautifulll,Beautifil,op_b
+99,If 4 pencils cost 40, 10 pencils cost?,80,90,100,120,op_c
+100,What is 45% of 200?,80,90,100,120,op_b

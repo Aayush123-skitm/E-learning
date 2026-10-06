@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,C++ was developed by?,James Gosling,Bjarne Stroustrup,Dennis Ritchie,Guido van Rossum,op_b
+2,C++ is an extension of which language?,Java,C,Python,HTML,op_b
+3,C++ is a?,Database,Programming Language,Operating System,Compiler,op_b
+4,Which symbol is used for single line comments in C++?,//,#,/* */,<!-- -->,op_a
+5,Which function is the entry point of C++ program?,start(),main(),run(),begin(),op_b
+6,Which header file is used for input and output?,stdio.h,string,iostream,conio.h,op_c
+7,Which keyword is used to create an object dynamically?,class,new,create,object,op_b
+8,Which keyword is used to define a class?,struct,class,type,object,op_b
+9,Which operator is used for output in C++?,>>,<<,==,=,op_b
+10,Which operator is used for input in C++?,<<,>>,&,%,op_b
+11,C++ supports which programming concept?,Markup Language,Object Oriented Programming,Database Language,Machine Language,op_b
+12,Which feature allows code reuse?,Looping,Inheritance,Compilation,Variable,op_b
+13,Same function name with different parameters is called?,Encapsulation,Function Overloading,Inheritance,Abstraction,op_b
+14,Which concept hides data from outside access?,Inheritance,Encapsulation,Pointer,Loop,op_b
+15,Showing only required information is called?,Abstraction,Variable,Compilation,Operator,op_a
+16,Which keyword is used to define inheritance access?,public,extends,inherit,super,op_a
+17,Which operator accesses class members using object?,#,.,@,$,op_b
+18,Which data type stores integer values?,float,int,char,double,op_b
+19,Which data type stores decimal values?,char,double,bool,int,op_b
+20,Which data type stores single character?,string,char,int,float,op_b
+21,Which keyword creates constant value?,fixed,const,final,static,op_b
+22,Which operator gives address of variable?,*,&,%,#,op_b
+23,Which operator accesses value using pointer?,&,*,@,%,op_b
+24,Which operator is used for dynamic memory allocation?,malloc,new,alloc,create,op_b
+25,Which operator releases dynamic memory?,free,remove,delete,clear,op_c
+26,Which loop executes at least once?,for,while,do-while,if,op_c
+27,Which statement is used for decision making?,if,loop,class,function,op_a
+28,Which keyword exits from loop?,stop,break,end,exit,op_b
+29,Which keyword skips current iteration?,continue,break,skip,pass,op_a
+30,Which operator is used for equality comparison?,=,==,!=,+,op_b
+31,Which operator represents logical AND?,||,&&,!,&,op_b
+32,Which operator represents logical OR?,&&,||,%,+,op_b
+33,Which keyword returns value from function?,return,give,back,value,op_a
+34,Which symbol ends a C++ statement?,:,;,.,#,op_b
+35,Which data type stores true or false?,bool,int,float,char,op_a
+36,Which storage class keeps value between function calls?,static,auto,extern,register,op_a
+37,Which keyword defines a structure?,class,struct,define,type,op_b
+38,Which function is called automatically when object is created?,constructor,destructor,main,friend,op_a
+39,Which function is called when object is destroyed?,constructor,destructor,delete,remove,op_b
+40,Constructor has which return type?,int,void,no return type,float,op_c
+41,Which symbol is used for scope resolution?,::,.,->,#,op_a
+42,Which operator accesses members through pointer?,.,::,->,*,op_c
+43,Which concept allows same name with different behavior?,Polymorphism,Inheritance,Encapsulation,Abstraction,op_a
+44,Which keyword is used to declare virtual function?,virtual,override,function,abstract,op_a
+45,Which class cannot be inherited?,Base class,Final class,Friend class,Normal class,op_b
+46,Which keyword is used to handle exceptions?,try,catch,throw,All of these,op_d
+47,Which block handles exception?,try,catch,throw,error,op_b
+48,Which keyword throws exception manually?,throw,throws,raise,error,op_a
+49,Which library is used for strings?,string,string.h,iostream,math,op_a
+50,Which container stores multiple values dynamically?,vector,array,char,int,op_a
+51,Which header file is used for vector?,vector,iostream,array,string,op_a
+52,Which container follows LIFO principle?,Queue,Stack,Vector,List,op_b
+53,Which container follows FIFO principle?,Stack,Queue,Array,Map,op_b
+54,Which keyword is used to create an inheritance relationship?,extends,: ,public,class,op_c
+55,Which type of inheritance uses one base and one derived class?,Single inheritance,Multiple inheritance,Hybrid inheritance,Hierarchical inheritance,op_a
+56,Multiple inheritance means?,One class inherits from multiple classes,Many objects in one class,One function many times,One class only,op_a
+57,Which inheritance has multiple derived classes from one base class?,Single,Hierarchical,Multiple,Hybrid,op_b
+58,Combination of different inheritance types is called?,Hybrid inheritance,Single inheritance,Simple inheritance,Linear inheritance,op_a
+59,Which keyword is used to access private members through functions?,friend,private,access,this,op_a
+60,Friend function can access?,Only public members,Private and protected members,Only variables,Only methods,op_b
+61,Which keyword refers to current object?,self,this,current,object,op_b
+62,Which pointer stores address of another variable?,Normal pointer,Reference,Pointer,Array,op_c
+63,Array elements are stored in?,Random memory,Continuous memory,Database,File,op_b
+64,Index of first element in C++ array is?,1,0,-1,2,op_b
+65,Which operator is used to allocate memory?,delete,new,free,remove,op_b
+66,Which operator deallocates memory?,delete,new,create,alloc,op_a
+67,Which function is used to find string length?,length(),size(),strlen(),Both length and size,op_d
+68,Which class is used for file handling?,fstream,file,fileio,stream,op_a
+69,Which header file is used for file handling?,fstream.h,file.h,iostream,string.h,op_a
+70,Which mode opens file for writing?,ios::out,ios::in,ios::read,ios::write,op_a
+71,Which mode opens file for reading?,ios::out,ios::in,ios::app,ios::binary,op_b
+72,Which mode adds data at end of file?,ios::append,ios::out,ios::in,ios::read,op_a
+73,Which keyword is used for namespace?,namespace,package,module,using,op_a
+74,Which standard namespace is commonly used?,std,cpp,main,global,op_a
+75,Which command is used to include header file?,#include,import,using,include(),op_a
+76,What is the default access modifier in class?,private,public,protected,default,op_a
+77,What is the default access modifier in struct?,private,protected,public,none,op_c
+78,Which function cannot be inherited?,Constructor,Normal function,Member function,Friend function,op_a
+79,Which operator cannot be overloaded?,+,*,::,++,op_c
+80,Which operator is used to compare objects?,==,=,+,++,op_a
+81,What is the size of char in C++ usually?,4 bytes,2 bytes,1 byte,8 bytes,op_c
+82,Which data type has no value?,void,int,char,float,op_a
+83,Which keyword creates a reference variable?,&,ref,*,address,op_a
+84,Which concept allows one interface multiple implementations?,Polymorphism,Compilation,Looping,Storage,op_a
+85,Which class contains at least one pure virtual function?,Abstract class,Normal class,Friend class,Static class,op_a
+86,Pure virtual function is declared using?,=0,virtual 0,pure,abstract,op_a
+87,Which operator is used for member pointer?,->*,.*,::,&,op_a
+88,Which function is used to open file?,open(),start(),begin(),file(),op_a
+89,Which function closes a file?,close(),end(),stop(),finish(),op_a
+90,Which STL component stores key-value pairs?,map,vector,stack,array,op_a
+91,Which STL component stores unique values?,set,list,array,vector,op_a
+92,Which STL component works like dynamic array?,vector,map,set,queue,op_a
+93,Which algorithm is used for sorting in STL?,sort(),order(),arrange(),sorting(),op_a
+94,Which header file contains STL algorithms?,algorithm,sort,vector,iostream,op_a
+95,Which feature allows operator customization?,Operator Overloading,Function Calling,Inheritance,Encapsulation,op_a
+96,Which concept combines data and functions?,Encapsulation,Inheritance,Loop,Pointer,op_a
+97,C++ supports multiple inheritance?,No,Yes,Only sometimes,Not possible,op_b
+98,Which compiler converts C++ code to machine code?,C++ compiler,Interpreter,Browser,Database,op_a
+99,C++ program execution starts from?,main(),start(),run(),execute(),op_a
+100,C++ is mainly used for?,System programming,Web designing,Database only,HTML pages,op_a

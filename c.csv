@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,C language was developed by?,Dennis Ritchie,James Gosling,Bjarne Stroustrup,Guido van Rossum,op_a
+2,C language was developed at?,Microsoft,Bell Laboratories,Google,IBM,op_b
+3,C is a?,Operating System,Database,Programming Language,Markup Language,op_c
+4,C source file extension is?,.cpp,.java,.c,.py,op_c
+5,Execution of C program starts from?,start(),main(),run(),begin(),op_b
+6,Header file for input and output is?,math.h,stdio.h,string.h,stdlib.h,op_b
+7,Single line comment symbol in C is?,//,##,/* */,--,op_a
+8,Integer values are stored using?,float,char,int,double,op_c
+9,Decimal values are stored using?,int,float,char,void,op_b
+10,Single character is stored using?,string,char,float,int,op_b
+11,Keyword for constant variable?,fixed,const,static,define,op_b
+12,Addition operator is?,*,+,/,-,op_b
+13,Remainder operator is?,%,+,/,*,op_a
+14,Loop that executes at least once?,while,for,do-while,if,op_c
+15,Decision making statement?,function,if,class,loop,op_b
+16,Keyword to exit loop?,continue,break,skip,exit,op_b
+17,Keyword to skip iteration?,break,continue,stop,end,op_b
+18,Assignment operator is?,==,=,!=,>=,op_b
+19,Equality operator is?,+,==,=,-,op_b
+20,Address operator is?,*,&,%,#,op_b
+21,Pointer operator is?,&,*,@,#,op_b
+22,First array index in C is?,1,0,-1,2,op_b
+23,Output function in C?,scanf(),printf(),input(),print(),op_b
+24,Input function in C?,printf(),scanf(),get(),read(),op_b
+25,Return value keyword?,back,return,give,value,op_b
+26,Value stored between function calls by?,extern,auto,static,register,op_c
+27,Keyword for structure?,class,struct,type,object,op_b
+28,Structure is used to?,Group different data types,Create loops,Run program,Store only numbers,op_a
+29,Dynamic memory allocation function?,free(),malloc(),delete(),open(),op_b
+30,Memory release function?,malloc(),free(),calloc(),realloc(),op_b
+31,malloc() is declared in?,math.h,stdlib.h,stdio.h,string.h,op_b
+32,Function that initializes memory?,calloc(),free(),malloc(),realloc(),op_a
+33,Function to resize memory?,malloc(),sizeof(),realloc(),calloc(),op_c
+34,Size of variable operator?,sizeof,&,*,%,op_a
+35,User defined data type keyword?,typedef,var,type,define,op_a
+36,String comparison function?,strcpy(),strcmp(),strlen(),strcat(),op_b
+37,String copy function?,strcmp(),strcpy(),strcat(),strlen(),op_b
+38,String length function?,strrev(),strlen(),strcmp(),strcpy(),op_b
+39,String joining function?,strlen(),strcat(),strcpy(),strcmp(),op_b
+40,String header file?,math.h,string.h,stdio.h,time.h,op_b
+41,C follows which programming style?,Procedural,Markup,Object Oriented,Machine,op_a
+42,Variable storage keyword?,auto,var,let,define,op_a
+43,Program starts execution from?,main(),init(),run(),start(),op_a
+44,Statement ending symbol?,;,.,:,#,op_a
+45,Logical AND operator?,||,!,&&,&,op_c
+46,Logical OR operator?,&&,||,%,+,op_b
+47,Math functions header file?,math.h,stdio.h,string.h,stdlib.h,op_a
+48,Square root function?,root(),sqrt(),pow(),abs(),op_b
+49,Known iterations loop?,while,if,for,switch,op_c
+50,Condition checked before execution loop?,do-while,while,for,repeat,op_b
+51,Which keyword is used to declare a variable?,var,declare,int,dim,op_c
+52,Which data type stores no value?,void,int,float,char,op_a
+53,Which operator is used to access structure members?,.,->,*,&,op_a
+54,Which operator is used with pointer to access structure member?,.,->,*,&,op_b
+55,Which keyword is used to create a union?,union,struct,class,type,op_a
+56,Union stores?,Multiple values at same time,Single shared memory location,Only integers,Only characters,op_b
+57,Which statement is used for multiple choices?,switch,if,for,while,op_a
+58,Which keyword is used inside switch cases?,case,option,select,choice,op_a
+59,Default block in switch is written as?,else,default,otherwise,last,op_b
+60,Which function converts string to integer?,atoi,strint,convert,intval,op_a
+61,Which header file contains character functions?,ctype.h,char.h,string.h,stdio.h,op_a
+62,Which function checks length of string?,strlen(),strcmp(),strcpy(),strcat(),op_a
+63,Which function compares strings?,strcat(),strcmp(),strlen(),strcpy(),op_b
+64,Which function concatenates strings?,strcmp(),strcpy(),strcat(),strlen(),op_c
+65,Which function copies strings?,strcat(),strlen(),strcpy(),strcmp(),op_c
+66,Pointer stores?,Value,Address of variable,Character,Function name,op_b
+67,NULL pointer points to?,First element,No valid address,Last address,Random value,op_b
+68,Array stores?,Single value,Multiple values of same type,Only characters,Only pointers,op_b
+69,Two dimensional array represents?,Matrix,Function,Pointer,Variable,op_a
+70,Which keyword stops function execution?,return,break,stop,end,op_a
+71,Recursion means?,Function calling itself,Loop ending,Memory deletion,Variable creation,op_a
+72,Compiler converts?,High level code to machine code,Machine code to English,Data to file,Image to text,op_a
+73,C compiler output file commonly is?,.exe,.txt,.jpg,.html,op_a
+74,Which operator is used for increment?,++,--,**,//,op_a
+75,Which operator is used for decrement?,--,++,//,%%,op_a
+76,Preprocessor directive starts with?,#,/,@,$,op_a
+77,Header files are included using?,#include,import,using,require,op_a
+78,Macro is created using?,#define,#macro,define(),macro(),op_a
+79,Which keyword is used for external variables?,extern,static,auto,register,op_a
+80,Which storage class is default for local variables?,auto,static,extern,register,op_a
+81,Which storage class stores variable in CPU register?,register,auto,static,extern,op_a
+82,Which function allocates memory dynamically?,malloc(),printf(),scanf(),strlen(),op_a
+83,Which function releases memory?,free(),malloc(),calloc(),realloc(),op_a
+84,Which function allocates initialized memory?,calloc(),malloc(),free(),sizeof(),op_a
+85,Which function changes allocated memory size?,realloc(),calloc(),malloc(),free(),op_a
+86,Which operator is used with sizeof?,sizeof(),size(),length(),count(),op_a
+87,Which is not a basic data type in C?,int,float,class,char,op_c
+88,C language is case?,Sensitive,Insensitive,Optional,Unknown,op_a
+89,Which keyword creates a loop control?,for,repeat,loop,cycle,op_a
+90,Which loop is entry controlled?,while,do-while,both,none,op_a
+91,Which loop is exit controlled?,do-while,for,while,if,op_a
+92,Which function reads a single character?,getchar(),scanf(),printf(),puts(),op_a
+93,Which function displays a string?,puts(),gets(),scanf(),printf(),op_a
+94,Which function reads a string?,gets(),puts(),printf(),putchar(),op_a
+95,Which function displays a character?,putchar(),getchar(),scanf(),puts(),op_a
+96,Which symbol is used for logical NOT?,!,&&,||,&,op_a
+97,Which operator gives remainder?,/,%,*,+,op_b
+98,Which operator is used for multiplication?,+,*,/,%,op_b
+99,Which operator is used for division?,*,/,+,-,op_b
+100,C language is mainly used for?,System programming,Web designing only,Database only,Graphic designing,op_a

@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,HTML stands for?,Hyper Text Markup Language,High Text Machine Language,Home Text Markup Language,Hyper Tool Multi Language,op_a
+2,HTML is used to create?,Compiler,Web Pages,Database,Operating System,op_b
+3,Who developed HTML?,Guido van Rossum,Tim Berners-Lee,Dennis Ritchie,James Gosling,op_b
+4,HTML file extension is?,.css,.java,.html,.py,op_c
+5,Which tag is used for main heading?,<p>,<title>,<h1>,<head>,op_c
+6,Which tag is used to create paragraph?,<para>,<p>,<text>,<pg>,op_b
+7,Which tag is used to insert image?,<src>,<image>,<img>,<pic>,op_c
+8,Which attribute specifies image location?,href,src,alt,title,op_b
+9,Which tag creates hyperlink?,<link>,<a>,<url>,<href>,op_b
+10,Which attribute is used in hyperlink?,src,target,href,link,op_c
+11,Which tag defines webpage title?,<body>,<title>,<head>,<h1>,op_b
+12,Which tag contains visible webpage content?,<html>,<head>,<body>,<meta>,op_c
+13,Which tag is root element of HTML?,<body>,<html>,<root>,<head>,op_b
+14,Which tag creates unordered list?,<ol>,<ul>,<li>,<list>,op_b
+15,Which tag creates ordered list?,<li>,<order>,<ol>,<ul>,op_c
+16,Which tag defines list item?,<li>,<ul>,<item>,<list>,op_a
+17,Which tag creates table?,<grid>,<table>,<tab>,<data>,op_b
+18,Which tag defines table row?,<td>,<tr>,<th>,<row>,op_b
+19,Which tag defines table data cell?,<cell>,<td>,<tr>,<th>,op_b
+20,Which tag defines table heading?,<th>,<head>,<td>,<tr>,op_a
+21,Which tag creates form?,<input>,<form>,<button>,<field>,op_b
+22,Which tag creates input field?,<form>,<input>,<text>,<box>,op_b
+23,Which tag creates button?,<click>,<btn>,<button>,<input>,op_c
+24,Which tag is used for line break?,<newline>,<br>,<break>,<lb>,op_b
+25,Which tag creates horizontal line?,<hr>,<line>,<hline>,<horizontal>,op_a
+26,Which tag is used to add video in HTML?,<video>,<media>,<movie>,<play>,op_a
+27,Which tag is used to add audio in HTML?,<sound>,<mp3>,<audio>,<music>,op_c
+28,Which attribute provides alternative text for image?,src,alt,title,href,op_b
+29,Which tag is used to create a division?,<section>,<box>,<div>,<container>,op_c
+30,Which tag is used for inline grouping?,<span>,<div>,<inline>,<group>,op_a
+31,Which attribute gives unique identity to an element?,class,id,name,key,op_b
+32,Which attribute applies same style to multiple elements?,id,style,class,css,op_c
+33,Which tag is used to write internal CSS?,<css>,<link>,<style>,<design>,op_c
+34,Which tag is used to connect external CSS file?,<script>,<style>,<link>,<css>,op_c
+35,Which tag is used to add JavaScript?,<js>,<code>,<script>,<javascript>,op_c
+36,Which attribute is used for inline CSS?,class,css,style,design,op_c
+37,Which tag defines metadata of webpage?,<info>,<meta>,<data>,<head>,op_b
+38,Which tag defines navigation links?,<menu>,<links>,<nav>,<navigation>,op_c
+39,Which tag defines footer section?,<bottom>,<footer>,<end>,<section>,op_b
+40,Which tag defines header section?,<top>,<header>,<head>,<heading>,op_b
+41,Which tag is used for important text?,<strong>,<bold>,<b>,<important>,op_a
+42,Which tag makes text italic?,<style>,<i>,<italic>,<em>,op_b
+43,Which tag makes text bold?,<strong>,<big>,<b>,<bold>,op_c
+44,Which tag is used for emphasized text?,<important>,<em>,<i>,<italic>,op_b
+45,Which HTML version introduced semantic tags?,HTML4,HTML2,HTML5,HTML3,op_c
+46,Which tag represents an article?,<content>,<article>,<post>,<text>,op_b
+47,Which tag represents a section?,<area>,<section>,<part>,<block>,op_b
+48,Which attribute opens link in new tab?,target,href,new,window,op_a
+49,Which value of target opens a link in new tab?,new,_blank,_tab,_open,op_b
+50,Which syntax is used for HTML comments?,// comment,/* comment */,# comment,<!-- comment -->,op_d
+51,Which tag is used to create a dropdown list?,<option>,<select>,<list>,<dropdown>,op_b
+52,Which tag is used inside select element?,<select>,<item>,<option>,<choice>,op_c
+53,Which attribute makes input field mandatory?,need,required,validate,mandatory,op_b
+54,Which input type is used for passwords?,secure,text,password,hidden,op_c
+55,Which input type is used for email?,text,address,email,mail,op_c
+56,Which attribute specifies default value of input?,placeholder,set,value,default,op_c
+57,Which attribute shows hint inside input box?,text,placeholder,value,help,op_b
+58,Which tag creates a checkbox?,<checkbox>,<input type="checkbox">,<check>,<box>,op_b
+59,Which input type allows selecting one option?,button,radio,checkbox,select,op_b
+60,Which tag is used for multiline text input?,<textarea>,<input>,<text>,<multiline>,op_a
+61,Which attribute defines form submission method?,action,type,method,submit,op_c
+62,Which attribute specifies where form data is sent?,url,target,action,method,op_c
+63,Which HTTP method sends data securely?,SEND,POST,GET,PUT,op_b
+64,Which HTML element defines the main content?,<content>,<main>,<body>,<section>,op_b
+65,Which tag is used for sidebar content?,<side>,<aside>,<bar>,<left>,op_b
+66,Which tag is used to embed another webpage?,<web>,<iframe>,<embedpage>,<frame>,op_b
+67,Which attribute sets image width?,scale,height,width,size,op_c
+68,Which attribute sets image height?,length,height,width,size,op_b
+69,Which tag is used for drawing graphics using JavaScript?,<draw>,<canvas>,<svg>,<graphic>,op_b
+70,Which HTML element is used for vector graphics?,<vector>,<shape>,<svg>,<canvas>,op_c
+71,Which tag is used to define a table caption?,<heading>,<caption>,<title>,<label>,op_b
+72,Which attribute merges table columns?,merge,rowspan,colspan,column,op_c
+73,Which attribute merges table rows?,combine,rowspan,colspan,merge,op_b
+74,Which tag defines a table header section?,<th>,<header>,<thead>,<top>,op_c
+75,Which tag defines table body?,<content>,<tbody>,<tablebody>,<bodytable>,op_b
+76,Which tag defines table footer?,<footer>,<tfoot>,<bottom>,<end>,op_b
+77,Which tag groups table columns?,<col>,<group>,<columns>,<colgroup>,op_d
+78,Which attribute merges table columns?,rowspan,colspan,merge,column,op_b
+79,Which attribute merges table rows?,colspan,rowspan,merge,rows,op_b
+80,Which tag is used to create list item?,<ul>,<li>,<item>,<list>,op_b
+81,Which tag defines description list?,<dl>,<desc>,<list>,<ul>,op_a
+82,Which tag defines term in description list?,<dd>,<li>,<dt>,<term>,op_c
+83,Which tag defines description in list?,<desc>,<dd>,<dt>,<text>,op_b
+84,Which tag displays computer code?,<script>,<code>,<program>,<pre>,op_b
+85,Which tag preserves spaces and line breaks?,<text>,<space>,<pre>,<format>,op_c
+86,Which tag is used for abbreviation?,<short>,<abbr>,<define>,<name>,op_b
+87,Which attribute gives extra information about element?,title,info,extra,details,op_a
+88,Which tag highlights text?,<mark>,<strong>,<color>,<highlight>,op_a
+89,Which tag represents deleted text?,<strike>,<remove>,<del>,<delete>,op_c
+90,Which tag represents inserted text?,<add>,<ins>,<new>,<insert>,op_b
+91,Which attribute specifies webpage language?,lang,language,meta,locale,op_a
+92,Which tag defines the head section?,<header>,<head>,<top>,<heading>,op_b
+93,Which tag loads external resources?,<resource>,<link>,<load>,<import>,op_b
+94,Which tag is used for JavaScript code?,<code>,<javascript>,<script>,<js>,op_c
+95,Which attribute provides unique identity?,name,class,id,key,op_c
+96,Which attribute opens link in new tab?,href,target,open,new,op_b
+97,Which tag creates horizontal rule?,<line>,<hr>,<rule>,<horizontal>,op_b
+98,Which tag defines webpage section?,<block>,<area>,<section>,<part>,op_c
+99,Which HTML element is used for navigation?,<menu>,<links>,<nav>,<navigation>,op_c
+100,HTML is a ______ language?,Programming,Markup,Scripting,Machine,op_b

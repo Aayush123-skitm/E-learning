@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,What does ML stand for?,Machine Language,Machine Learning,Memory Learning,Model Language,op_b
+2,Machine Learning is a subset of?,Networking,Artificial Intelligence,Database,Cloud Computing,op_b
+3,Which language is most commonly used for ML?,HTML,PHP,Python,CSS,op_c
+4,Which library is widely used for Machine Learning in Python?,Tkinter,Scikit-learn,Pygame,BeautifulSoup,op_b
+5,Which type of learning uses labeled data?,Deep Learning,Reinforcement Learning,Supervised Learning,Unsupervised Learning,op_c
+6,Which type of learning uses unlabeled data?,Deep Learning,Unsupervised Learning,Supervised Learning,Semi-supervised Learning,op_b
+7,Which type of learning uses rewards and penalties?,Regression,Reinforcement Learning,Supervised Learning,Unsupervised Learning,op_b
+8,Which algorithm is used for predicting continuous values?,K-Means,Linear Regression,KNN,Decision Tree,op_b
+9,Which algorithm is used for classification?,PCA,Linear Regression,Logistic Regression,K-Means,op_c
+10,Which algorithm is based on a tree structure?,Naive Bayes,Linear Regression,Decision Tree,KNN,op_c
+11,Which algorithm combines multiple decision trees?,Naive Bayes,SVM,Random Forest,KNN,op_c
+12,Which algorithm groups similar data together?,Decision Tree,SVM,K-Means,Linear Regression,op_c
+13,What does K in KNN stand for?,Kernel,Nearest Neighbors,Known,Key,op_b
+14,KNN is mainly used for?,Classification and Regression,Encryption,Sorting,Searching,op_a
+15,Which algorithm is based on probability?,K-Means,KNN,Naive Bayes,Decision Tree,op_c
+16,What does SVM stand for?,Support Vector Machine,Simple Vector Model,System Vector Model,Standard Vector Machine,op_a
+17,Which algorithm is useful for separating classes with a margin?,Random Forest,SVM,K-Means,PCA,op_b
+18,What is a dataset?,Programming Language,Image,Collection of data,Database Table,op_c
+19,What is a feature?,Algorithm,Input Variable,Model,Output Variable,op_b
+20,What is the output variable called?,Dataset,Feature,Labeling,Target,op_d
+21,Which library is mainly used for numerical computation?,Flask,NumPy,Tkinter,Pygame,op_b
+22,Which library is mainly used for data analysis?,Requests,TensorFlow,Pandas,OpenCV,op_c
+23,Which library is mainly used for plotting graphs?,OS,NumPy,Matplotlib,Pandas,op_c
+24,What is overfitting?,Feature Scaling,Model performs well only on training data,Data Cleaning,Model performs poorly on all data,op_b
+25,What is underfitting?,Prediction,Model is too complex,Model is too simple,Data Collection,op_c
+26,Which algorithm is used for binary classification?,Apriori,Logistic Regression,PCA,K-Means,op_b
+27,What is the purpose of a validation set?,To store data,To tune model parameters,To remove features,To create database,op_b
+28,Which algorithm is used for recommendation systems?,PCA,Decision Tree,Collaborative Filtering,Linear Regression,op_c
+29,What is bias in Machine Learning?,Error due to wrong assumptions,Training speed,Data size,Number of features,op_a
+30,What is variance in Machine Learning?,Model accuracy,Sensitivity to training data changes,Data cleaning,Feature count,op_b
+31,Which library is used for data manipulation in Python?,Flask,Pandas,TensorFlow,OpenCV,op_b
+32,Which library is mainly used for numerical operations?,BeautifulSoup,NumPy,Django,Matplotlib,op_b
+33,What is cross-validation?,Feature creation,Database joining,Technique to evaluate model performance,Data deletion,op_c
+34,Which algorithm creates a tree structure?,Linear Regression,PCA,KNN,Decision Tree,op_d
+35,What is ensemble learning?,Combining multiple models,Removing data,Creating databases,Using one feature,op_a
+36,Random Forest is based on?,Neural Network,Multiple Decision Trees,Database,Single Regression Model,op_b
+37,What is hyperparameter?,Dataset row,Output value,Parameter set before training,Error value,op_c
+38,Which algorithm uses probability theory?,Naive Bayes,K-Means,PCA,KNN,op_a
+39,What is clustering?,Sorting data,Grouping similar data points,Removing errors,Classifying labels,op_b
+40,Which learning method does not use labeled data?,Deep Learning,Supervised Learning,Unsupervised Learning,Reinforcement Learning,op_c
+41,What is reinforcement learning based on?,Sorting,Only labels,Rewards and penalties,Database queries,op_c
+42,Which algorithm is used for dimensionality reduction?,Random Forest,PCA,KNN,Naive Bayes,op_b
+43,What is deep learning?,Database management,Learning using deep neural networks,Simple programming,Sorting technique,op_b
+44,Which framework is used for deep learning?,HTML,TensorFlow,Git,MySQL,op_b
+45,What is loss function?,Input variable,Database function,Function that measures prediction error,Sorting function,op_c
+46,Gradient Descent is used for?,Optimization,Data cleaning,Classification only,Data storage,op_a
+47,What is epoch in ML?,One algorithm,One complete pass through training data,One output,One feature,op_b
+48,What is batch size?,Number of features,Number of outputs,Number of samples processed at once,Number of models,op_c
+49,Which algorithm is called lazy learner?,Random Forest,Linear Regression,KNN,Decision Tree,op_c
+50,What is normalization?,Training model,Deleting data,Scaling data values,Adding features,op_c
+51,Which algorithm is used for regression problems?,PCA,Linear Regression,K-Means,Naive Bayes,op_b
+52,Which algorithm is commonly used for classification?,K-Means,Decision Tree,Apriori,PCA,op_b
+53,What is the full form of SVM?,Support Vector Machine,System Variable Method,Simple Vector Model,Support Value Machine,op_a
+54,Which algorithm finds the best separating hyperplane?,Linear Regression,SVM,KNN,Random Forest,op_b
+55,What is the main purpose of Machine Learning?,Store files,Design websites,Learn patterns from data,Create hardware,op_c
+56,Which type of data is used in supervised learning?,Encrypted Data,Labeled Data,Random Data,Unlabeled Data,op_b
+57,Which type of data is used in unsupervised learning?,Fixed Data,Sorted Data,Labeled Data,Unlabeled Data,op_d
+58,What is the output of classification?,Algorithm,Continuous Value,Category or Class,Database,op_c
+59,What is the output of regression?,Cluster Name,Label Only,Category,Continuous Value,op_d
+60,Which algorithm is used for finding groups in data?,Logistic Regression,K-Means,SVM,Linear Regression,op_b
+61,What does K in K-Means represent?,Number of Classes,Number of Clusters,Number of Models,Number of Features,op_b
+62,Which technique is used to avoid overfitting?,Increasing Error,Regularization,Removing Model,Data Deletion,op_b
+63,Which method adds penalty to model complexity?,Classification,Clustering,Regularization,Normalization,op_c
+64,What is the full form of CNN?,Central Network Node,Convolutional Neural Network,Computer Neural Network,Connected Neural Node,op_b
+65,CNN is mainly used for?,Text Editing,File Handling,Image Processing,Database Management,op_c
+66,RNN is mainly used for?,Sequential Data,Sorting Data,Image Compression,Database Query,op_a
+67,What is the full form of RNN?,Regular Neural Network,Random Neural Network,Recurrent Neural Network,Real Network Node,op_c
+68,Which activation function gives output between 0 and 1?,Linear,Step,Sigmoid,ReLU,op_c
+69,Which activation function solves the vanishing gradient problem?,Softmax,ReLU,Sigmoid,Linear,op_b
+70,What is Softmax used for?,Feature Scaling,Multi-class Classification,Clustering,Data Cleaning,op_b
+71,What is the purpose of feature scaling?,Increase data size,Create labels,Delete features,Make features have similar range,op_d
+72,Which method scales data between 0 and 1?,KNN,Min-Max Scaling,PCA,Random Forest,op_b
+73,What is confusion matrix used for?,Classification Evaluation,Model Training,Data Storage,Feature Selection,op_a
+74,Which metric is used for regression evaluation?,Recall,Mean Squared Error,Precision,Accuracy,op_b
+75,What is precision in Machine Learning?,Number of features,Training speed,Correct positive predictions among predicted positives,Total data size,op_c
+76,What is recall in Machine Learning?,Training time,Correct positive predictions among actual positives,Total features,Data size,op_b
+77,What is F1-score?,Training loss,Model complexity,Harmonic mean of precision and recall,Average data size,op_c
+78,Which algorithm is based on nearest neighbors?,KNN,PCA,SVM,Naive Bayes,op_a
+79,What is the full form of KNN?,Knowledge Neural Network,K-Nearest Neighbors,Kernel Network Node,K-Node Network,op_b
+80,Which algorithm is used for association rule learning?,SVM,KNN,Apriori,Linear Regression,op_c
+81,What is the full form of ANN?,Artificial Node Network,Artificial Neural Network,Advanced Network Number,Automatic Neural Node,op_b
+82,Neural networks are made up of?,Databases,Files,Neurons,Tables,op_c
+83,What is a neuron in Artificial Neural Network?,Dataset,Database table,Basic processing unit,Programming language,op_c
+84,What are weights in Machine Learning?,Input data,Parameters learned by model,Error messages,Output labels,op_b
+85,What is the purpose of activation function?,Store data,Create database,Introduce non-linearity,Remove features,op_c
+86,Which algorithm is used for binary output prediction?,Logistic Regression,Apriori,PCA,K-Means,op_a
+87,What is training accuracy?,Accuracy on test data,Data size,Accuracy on training data,Model speed,op_c
+88,What is test accuracy?,Feature count,Accuracy on unseen data,Training loss,Data cleaning,op_b
+89,Which method divides data into training and testing sets?,Regularization,Train-Test Split,Clustering,Normalization,op_b
+90,What is data preprocessing?,Writing code only,Preparing data before training,Creating hardware,Deleting model,op_b
+91,Which step handles missing values?,Prediction,Model Testing,Deployment,Data Cleaning,op_d
+92,What is model deployment?,Training data,Feature removal,Making model available for real use,Deleting model,op_c
+93,Which tool is used for machine learning model building in Python?,MySQL,Photoshop,HTML,Scikit-learn,op_d
+94,What is the full form of AI?,Advanced Internet,Artificial Intelligence,Artificial Integration,Automatic Input,op_b
+95,Machine Learning is a subset of?,Operating System,Networking,Database,Artificial Intelligence,op_d
+96,What is deep neural network?,Simple algorithm,Database system,Neural network with multiple hidden layers,Single layer model,op_c
+97,What is dropout in neural networks?,Technique to reduce overfitting,Increase features,Remove labels,Increase dataset,op_a
+98,What is batch normalization?,Model storage,Feature removal,Data deletion,Technique to improve neural network training,op_d
+99,Which optimizer is commonly used in deep learning?,PCA,Adam,SQL,K-Means,op_b
+100,What is the purpose of optimizer in ML?,Remove features,Store files,Minimize loss function,Create dataset,op_c

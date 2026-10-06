@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,DBMS stands for?,Database Management System,Data Managing Software,Database Memory System,Data Backup Management System,op_a
+2,DBMS is used for?,Running OS,Managing databases,Creating hardware,Designing websites,op_b
+3,Which is an example of DBMS?,HTML,Windows,MySQL,Python,op_c
+4,Which language is used to communicate with databases?,CSS,SQL,Java,HTML,op_b
+5,Data in DBMS is stored in?,Programs,Tables,Images,Only files,op_b
+6,Which key uniquely identifies a record?,Foreign Key,Primary Key,Candidate Key,Alternate Key,op_b
+7,Which key creates relationship between tables?,Super Key,Composite Key,Foreign Key,Primary Key,op_c
+8,Which command is used to retrieve data?,DELETE,UPDATE,SELECT,INSERT,op_c
+9,Which command is used to add new records?,INSERT,SELECT,CREATE,REMOVE,op_a
+10,Which command modifies existing data?,DELETE,UPDATE,SELECT,INSERT,op_b
+11,Which command removes records from table?,DROP,ALTER,DELETE,SELECT,op_c
+12,Which command creates a new table?,UPDATE,CREATE,INSERT,SELECT,op_b
+13,Which command changes table structure?,CHANGE,ALTER,UPDATE,MODIFY,op_b
+14,Which command removes a table completely?,CLEAR,DELETE,DROP,REMOVE,op_c
+15,SQL stands for?,Structured Query Language,Simple Query Language,System Query Language,Standard Question Language,op_a
+16,Which normal form removes partial dependency?,3NF,BCNF,2NF,1NF,op_c
+17,Which normal form removes transitive dependency?,2NF,3NF,1NF,4NF,op_b
+18,Normalization is used to?,Delete database,Increase duplicate data,Reduce data redundancy,Create programs,op_c
+19,Which constraint prevents NULL values?,UNIQUE,CHECK,NOT NULL,DEFAULT,op_c
+20,Which constraint ensures unique values?,DEFAULT,UNIQUE,FOREIGN,CHECK,op_b
+21,Which constraint checks a condition?,INDEX,CHECK,UNIQUE,DEFAULT,op_b
+22,Which constraint provides default value?,VALUE,NULL,CHECK,DEFAULT,op_d
+23,A row in a table is called?,Record,Column,Field,Attribute,op_a
+24,A column in a table is called?,Tuple,Row,Attribute,Record,op_c
+25,A collection of related data is called?,Network,Database,Algorithm,Program,op_b
+26,A table is made up of?,Rows and Columns,Only Rows,Only Columns,Programs,op_a
+27,A row in relational database is also called?,Attribute,Tuple,Field,Domain,op_b
+28,A column in relational database is also called?,Tuple,Record,Attribute,Key,op_c
+29,Which model organizes data in tables?,Relational Model,Network Model,Hierarchical Model,Object Model,op_a
+30,Who proposed the relational database model?,E.F. Codd,Charles Babbage,James Gosling,Bill Gates,op_a
+31,Which symbol is used for wildcard in SQL?,*,%,#,&,op_b
+32,Which operator is used to search a pattern?,LIKE,IN,BETWEEN,WHERE,op_a
+33,Which clause is used to filter records?,WHERE,ORDER BY,GROUP BY,SELECT,op_a
+34,Which clause is used to sort records?,ORDER BY,WHERE,HAVING,FROM,op_a
+35,Which clause is used to group rows?,GROUP BY,ORDER BY,WHERE,SELECT,op_a
+36,Which clause is used with aggregate functions to filter groups?,HAVING,WHERE,GROUP BY,ORDER BY,op_a
+37,Which function returns number of rows?,COUNT(),SUM(),AVG(),MAX(),op_a
+38,Which function returns average value?,COUNT(),MIN(),AVG(),SUM(),op_c
+39,Which function returns highest value?,MAX(),MIN(),AVG(),COUNT(),op_a
+40,Which function returns lowest value?,SUM(),MIN(),MAX(),AVG(),op_b
+41,Which command is used to remove all records but keep table?,TRUNCATE,DROP,DELETE,REMOVE,op_a
+42,Which command removes table structure also?,DELETE,DROP,TRUNCATE,CLEAR,op_b
+43,Which command is used to rename a table?,RENAME,CHANGE,ALTER NAME,MODIFY,op_a
+44,Which keyword removes duplicate records from result?,DISTINCT,UNIQUE,REMOVE,DUPLICATE,op_a
+45,Which join returns matching records from both tables?,INNER JOIN,LEFT JOIN,RIGHT JOIN,FULL JOIN,op_a
+46,Which join returns all records from left table?,LEFT JOIN,INNER JOIN,RIGHT JOIN,CROSS JOIN,op_a
+47,Which join returns all records from right table?,FULL JOIN,RIGHT JOIN,LEFT JOIN,INNER JOIN,op_b
+48,Which join returns all records from both tables?,FULL OUTER JOIN,INNER JOIN,LEFT JOIN,CROSS JOIN,op_a
+49,Which join creates Cartesian product?,CROSS JOIN,INNER JOIN,FULL JOIN,SELF JOIN,op_a
+50,A join is used to?,Combine data from tables,Delete tables,Create database,Sort records,op_a
+51,What is a primary key?,A key used for sorting,A key that uniquely identifies a record,A temporary key,A duplicate value,op_b
+52,Can a table have multiple primary keys?,Depends on database,Yes,No,Only three,op_c
+53,Can a table have multiple candidate keys?,Only one,Yes,No,Not possible,op_b
+54,Foreign key is used to?,Create relationship between tables,Delete records,Sort data,Create database,op_a
+55,Which key can contain duplicate values?,Primary Key,Candidate Key,Foreign Key,Super Key,op_c
+56,Which key cannot contain NULL values?,Foreign Key,Alternate Key,Primary Key,Candidate Key,op_c
+57,Which key is a combination of multiple attributes?,Composite Key,Simple Key,Foreign Key,Primary Key,op_a
+58,Which command is used to create database?,NEW DATABASE,CREATE DATABASE,ADD DATABASE,MAKE DATABASE,op_b
+59,Which command is used to delete database?,CLEAR DATABASE,DROP DATABASE,REMOVE DATABASE,DELETE DATABASE,op_b
+60,Which command is used to select a database?,OPEN,CHOOSE,USE,SELECT,op_c
+61,Which statement is used to add a new column?,ALTER TABLE,UPDATE TABLE,MODIFY TABLE,ADD COLUMN ONLY,op_a
+62,Which command changes existing records?,SELECT,UPDATE,INSERT,ALTER,op_b
+63,Which command adds new records?,CREATE,ALTER,INSERT,UPDATE,op_c
+64,Which command shows table structure?,VIEW,DESC,STRUCTURE,SHOW DATA,op_b
+65,Which command displays all tables?,LIST TABLE,SHOW TABLES,DISPLAY TABLE,SHOW DATABASE,op_b
+66,Which constraint automatically generates values?,UNIQUE,AUTO_INCREMENT,CHECK,DEFAULT,op_b
+67,Which data type stores large text?,INT,TEXT,FLOAT,CHAR,op_b
+68,Which data type stores integer values?,DATE,INT,VARCHAR,BOOLEAN,op_b
+69,Which data type stores date values?,NUMBER,TEXT,DATE,TIME,op_c
+70,Which data type stores variable length characters?,CHAR,INT,VARCHAR,DATE,op_c
+71,Which normal form is first step of normalization?,BCNF,2NF,1NF,3NF,op_c
+72,BCNF is stronger than?,4NF,3NF,1NF,2NF,op_b
+73,Denormalization is used to?,Remove database,Improve performance,Delete tables,Reduce storage only,op_b
+74,Index in database is used to?,Create users,Speed up searching,Store images,Delete records,op_b
+75,Which command creates an index?,MAKE INDEX,NEW INDEX,CREATE INDEX,ADD INDEX,op_c
+76,What is a view in DBMS?,Index file,Virtual table,Physical table,Backup file,op_b
+77,Which command is used to create a view?,CREATE VIEW,MAKE VIEW,NEW VIEW,ADD VIEW,op_a
+78,Which command removes a view?,CLEAR VIEW,DELETE VIEW,DROP VIEW,REMOVE VIEW,op_c
+79,What is a transaction?,A key,A sequence of database operations,A table,An index,op_b
+80,Which property ensures transaction completion?,Atomicity,Sorting,Normalization,Indexing,op_a
+81,ACID properties are related to?,Queries,Tables,Transactions,Columns,op_c
+82,What does A in ACID represent?,Access,Atomicity,Accuracy,Availability,op_b
+83,What does C in ACID represent?,Consistency,Connection,Control,Creation,op_a
+84,What does I in ACID represent?,Integration,Information,Isolation,Index,op_c
+85,What does D in ACID represent?,Data,Database,Dependency,Durability,op_d
+86,Which command saves a transaction permanently?,ROLLBACK,COMMIT,SAVE,CANCEL,op_b
+87,Which command cancels a transaction?,REMOVE,UNDO,ROLLBACK,DELETE,op_c
+88,Concurrency control is used for?,Managing multiple transactions,Creating database,Deleting records,Sorting data,op_a
+89,Deadlock occurs when?,Query executes fast,Transactions wait for each other,Data is removed,Table is created,op_b
+90,Which technique helps avoid deadlock?,Locking,Normalization,Indexing,Backup,op_a
+91,What is database schema?,A query result,Structure of database,A single row,A software,op_b
+92,Metadata means?,Data about data,Deleted data,Duplicate data,Encrypted data,op_a
+93,Which level describes physical storage?,External level,Conceptual level,Internal level,User level,op_c
+94,Which level describes user views?,Storage level,External level,Physical level,Internal level,op_b
+95,Which level describes complete database design?,External level,Internal level,Conceptual level,Physical level,op_c
+96,Which model uses tree structure?,Relational model,Object model,Hierarchical model,Network model,op_c
+97,Which model uses graph structure?,Network model,Relational model,Object model,Hierarchical model,op_a
+98,Which model stores data as objects?,Hierarchical model,Object-oriented model,Relational model,Network model,op_b
+99,DBA stands for?,Database Access,Data Backup Administrator,Database Administrator,Data Base Application,op_c
+100,Main responsibility of DBA is?,Managing database,Creating websites,Designing hardware,Writing programs,op_a

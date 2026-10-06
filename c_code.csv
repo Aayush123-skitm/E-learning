@@ -1,0 +1,201 @@
+﻿question,example
+What is a pointer in C?,A pointer stores the memory address of another variable.
+What is a NULL pointer?,A pointer that does not point to a valid memory location.
+What is a dangling pointer?,A pointer that refers to memory that has already been freed or gone out of scope.
+What is a wild pointer?,An uninitialized pointer that contains an indeterminate address.
+What is the difference between malloc and calloc?,"malloc allocates uninitialized memory, while calloc allocates zero-initialized memory."
+What is realloc used for?,It changes the size of previously allocated dynamic memory.
+What is a memory leak?,Allocated memory that is no longer reachable or freed.
+What is a segmentation fault?,An invalid memory access that causes the program to terminate.
+What is recursion?,A function calling itself to solve a smaller instance of a problem.
+What is a static variable in C?,A variable whose storage persists for the entire program execution.
+What is the difference between ++i and i++?,++i increments before evaluation; i++ evaluates first and then increments.
+What is the use of const in C?,It prevents modification of an object through that identifier.
+What is a structure?,A user-defined type that groups variables of different types.
+What is a union?,A user-defined type whose members share the same memory location.
+Structure vs union?,A structure gives separate storage to members; a union shares storage.
+What is a function pointer?,A pointer that stores the address of a function.
+What is a header file?,"A file containing declarations, macros, and type definitions commonly shared between source files."
+What is preprocessing in C?,Processing directives such as #include and #define before compilation.
+What is a macro?,A preprocessor definition that performs textual substitution.
+What is the difference between #define and const?,#define is preprocessor substitution; const creates a typed read-only object.
+What is a compiler?,A program that translates source code into machine or object code.
+What is the purpose of main()?,It is the entry point of a C program.
+What are command-line arguments?,Values supplied to a program when it is started.
+What is pass by value in C?,A copy of the argument value is passed to a function.
+How can a function modify a caller's variable?,By passing its address using a pointer.
+What is an array?,A contiguous collection of elements of the same type.
+What is a string in C?,A character array terminated by the null character.
+Why is '\0' important in C strings?,It marks the end of a string.
+What is strlen used for?,It returns the length of a null-terminated string.
+What is strcpy used for?,It copies a string into another character array.
+What is strcmp used for?,It compares two null-terminated strings.
+What is the difference between char *p and char p[]?,The first declares a pointer; the second declares an array.
+What is an enum?,A user-defined type consisting of named integer constants.
+What is typedef?,It creates an alias for an existing type.
+What is scope?,The region of a program where an identifier can be accessed.
+What is lifetime?,The period during which an object exists in memory.
+What is a local variable?,A variable declared inside a block or function.
+What is a global variable?,A variable declared outside functions and accessible according to its linkage.
+What is extern?,It declares that a variable or function is defined elsewhere.
+What is register storage class?,It suggests that a variable may be stored in a CPU register.
+What is auto storage class?,The default storage class for local variables.
+What is volatile?,It tells the compiler that a value may change unexpectedly.
+What is a bitwise operator?,An operator that works directly on individual bits.
+What does sizeof return?,The size in bytes of a type or object.
+What is operator precedence?,The rules that determine the order in which operators are evaluated.
+What is an lvalue?,An expression referring to an object that can generally appear on the left side of assignment.
+What is undefined behavior?,Program behavior for which the C standard imposes no requirements.
+What is implementation-defined behavior?,Behavior where the implementation chooses a documented option.
+What is a segmentation fault caused by?,"Common causes include invalid pointers, out-of-bounds access, or accessing freed memory."
+Why should array bounds be checked?,C does not automatically prevent out-of-bounds access.
+What is a stack?,A LIFO data structure often used for function calls and local storage.
+What is a queue?,A FIFO data structure.
+What is a linked list?,A sequence of nodes connected using pointers.
+What is a doubly linked list?,A linked list whose nodes usually contain both next and previous pointers.
+What is a circular linked list?,A linked list where the last node points back to the first.
+What is a binary tree?,A tree where each node has at most two children.
+What is a binary search tree?,A binary tree ordered so left values are smaller and right values are larger under its ordering rule.
+What is a graph?,A collection of vertices connected by edges.
+What is BFS?,"Breadth-first traversal that explores level by level, typically using a queue."
+What is DFS?,Depth-first traversal that explores as far as possible before backtracking.
+What is linear search?,Searching elements sequentially until the target is found.
+What is binary search?,Searching a sorted collection by repeatedly dividing the search range in half.
+What is sorting?,Arranging data according to a specified order.
+What is time complexity?,A measure of how running time grows with input size.
+What is Big O notation?,A notation used to describe an upper growth rate of an algorithm.
+Why is binary search O(log n)?,Each step approximately halves the remaining search space.
+What is dynamic memory allocation?,"Obtaining memory during program execution, commonly using malloc/calloc/realloc."
+What is a file pointer?,A FILE* used by the C standard library to work with a file stream.
+What does fopen do?,It opens a file stream.
+What does fclose do?,It closes a file stream.
+What is EOF?,A special indicator used to represent end-of-file conditions.
+What is the difference between scanf and fgets?,scanf parses formatted input; fgets reads a line into a buffer.
+Why can scanf leave a newline in input?,Formatted input may stop before consuming the newline character.
+What is a segmentation fault from scanf often related to?,Passing an invalid pointer or using an incorrect format/address.
+What is a format specifier?,A placeholder in formatted I/O that specifies how data should be interpreted.
+What does %d represent?,A signed decimal integer in formatted I/O.
+What does %f represent in printf?,A floating-point value.
+What does %c represent?,A character.
+What does %s represent?,A null-terminated string.
+What is a double pointer?,A pointer that stores the address of another pointer.
+What is pointer arithmetic?,Arithmetic on pointers based on the size of the pointed-to type.
+Why is pointer arithmetic type-dependent?,Moving one element advances by sizeof the pointed-to type.
+What is a void pointer?,A generic object pointer that can hold the address of an object of any type.
+Can a void pointer be dereferenced directly?,"No, it should first be converted to an appropriate object pointer type."
+What is a segmentation-safe string operation?,An operation that respects destination capacity and valid pointers.
+What is buffer overflow?,Writing beyond the bounds of a buffer.
+How can buffer overflow be reduced?,Validate sizes and use bounded input/copy techniques.
+What is modular programming?,"Dividing a program into smaller, reusable modules."
+What is a library?,Reusable code packaged for use by programs.
+What is static linking?,Library code is included into the executable during linking.
+What is dynamic linking?,Libraries are linked or loaded separately from the main executable.
+What is a linker?,A tool that combines object files and libraries into an executable.
+What is an object file?,Compiled code that has not necessarily been fully linked.
+What is a compile-time error?,An error detected during compilation.
+What is a runtime error?,An error occurring while the program is executing.
+What is debugging?,Finding and fixing program defects.
+What is unit testing?,Testing small pieces of code independently.
+What is portability?,The ability to run code across different environments with minimal changes.
+What is a standard library function?,"A function specified by the C standard library, such as printf or strlen."
+Write a C program to print Hello World.,Example: Hello World
+Write a C program to add two integers.,Example: 10 and 20 gives 30.
+Write a C program to find the largest of two numbers.,Example: 8 and 5 gives 8.
+Write a C program to find the largest of three numbers.,"Example: 4, 9, 6 gives 9."
+Write a C program to check whether a number is even or odd.,Example: 7 is odd.
+"Write a C program to check whether a number is positive, negative, or zero.",Example: -3 is negative.
+Write a C program to calculate factorial.,Example: factorial of 5 is 120.
+Write a C program to print a multiplication table.,"Example: table of 5 starts 5, 10, 15."
+Write a C program to reverse a number.,Example: 1234 becomes 4321.
+Write a C program to check whether a number is palindrome.,Example: 121 is palindrome.
+Write a C program to check whether a number is prime.,Example: 17 is prime.
+Write a C program to print prime numbers in a range.,"Example: 1 to 10 gives 2, 3, 5, 7."
+Write a C program to generate Fibonacci series.,"Example: first 7 terms are 0, 1, 1, 2, 3, 5, 8."
+Write a C program to find sum of digits.,Example: 123 gives 6.
+Write a C program to count digits in a number.,Example: 9876 has 4 digits.
+Write a C program to calculate power without using pow.,Example: 2 raised to 4 is 16.
+Write a C program to find GCD of two numbers.,Example: GCD of 12 and 18 is 6.
+Write a C program to find LCM of two numbers.,Example: LCM of 4 and 6 is 12.
+Write a C program to swap two numbers using a temporary variable.,Example: 5 and 9 become 9 and 5.
+Write a C program to swap two numbers without a temporary variable.,Example: 5 and 9 become 9 and 5.
+Write a C program to find sum of array elements.,"Example: [1,2,3,4] gives 10."
+Write a C program to find maximum element in an array.,"Example: [3,8,2] gives 8."
+Write a C program to find minimum element in an array.,"Example: [3,8,2] gives 2."
+Write a C program to count even numbers in an array.,"Example: [1,2,4,5] has 2 even numbers."
+Write a C program to reverse an array.,"Example: [1,2,3] becomes [3,2,1]."
+Write a C program to copy one array into another.,"Example: [1,2,3] is copied as [1,2,3]."
+Write a C program to search an element using linear search.,"Example: search 7 in [3,7,9] returns its position."
+Write a C program to sort an array using bubble sort.,"Example: [3,1,2] becomes [1,2,3]."
+Write a C program to merge two arrays.,"Example: [1,2] and [3,4] gives [1,2,3,4]."
+Write a C program to remove duplicate elements from an array.,"Example: [1,2,2,3] becomes [1,2,3]."
+Write a C program to count frequency of an element.,"Example: 2 occurs 3 times in [2,1,2,3,2]."
+Write a C program to find second largest element.,"Example: [5,9,2,7] gives 7."
+Write a C program to find second smallest element.,"Example: [5,9,2,7] gives 5."
+Write a C program to add two matrices.,"Example: [[1,2],[3,4]] + [[1,1],[1,1]] gives [[2,3],[4,5]]."
+Write a C program to subtract two matrices.,"Example: [[3,2],[4,5]] - [[1,1],[1,2]] gives [[2,1],[3,3]]."
+Write a C program to multiply two matrices.,Example: a 2x2 matrix multiplication produces another 2x2 matrix.
+Write a C program to transpose a matrix.,"Example: [[1,2],[3,4]] becomes [[1,3],[2,4]]."
+Write a C program to find sum of diagonal elements.,"Example: diagonal of [[1,2],[3,4]] sums to 5."
+Write a C program to count vowels in a string.,Example: 'hello' has 2 vowels.
+Write a C program to reverse a string.,Example: 'hello' becomes 'olleh'.
+Write a C program to check whether a string is palindrome.,Example: 'madam' is palindrome.
+Write a C program to find string length without strlen.,Example: 'hello' has length 5.
+Write a C program to copy a string without strcpy.,Example: 'cat' copies to another string as 'cat'.
+Write a C program to compare two strings without strcmp.,Example: 'abc' and 'abc' are equal.
+Write a C program to concatenate two strings without strcat.,Example: 'hello' + 'world' gives 'helloworld'.
+Write a C program to count words in a string.,Example: 'I love C' contains 3 words.
+Write a C program to count spaces in a string.,Example: 'a b c' has 2 spaces.
+Write a C program to count uppercase and lowercase letters.,Example: 'AbC' has 2 uppercase and 1 lowercase.
+Write a C program using a function to find maximum.,"Example: max(4,9) returns 9."
+Write a recursive C program for factorial.,Example: factorial(4) returns 24.
+Write a recursive C program for Fibonacci.,Example: Fibonacci(6) gives 8 under the 0-based definition.
+Write a C program using pointers to swap values.,Example: 3 and 7 become 7 and 3.
+Write a C program to access array elements using pointers.,"Example: [10,20,30] can be printed using pointer arithmetic."
+Write a C program using a structure for student details.,"Example: store name, roll number, and marks."
+Write a C program to find average marks of students using structure.,"Example: 70, 80, 90 gives average 80."
+Write a C program to store multiple students using an array of structures.,Example: store 3 student records.
+Write a C program using enum for weekdays.,Example: MONDAY can be represented by an enum constant.
+Write a C program to write text to a file.,Example: file contains 'Hello C'.
+Write a C program to read text from a file.,Example: prints the stored file content.
+Write a C program to count characters in a file.,Example: a file containing 'abc' has 3 characters.
+Write a C program to append text to a file.,Example: append 'World' after 'Hello'.
+Write a C program to implement stack using array.,"Example: push 10, 20 then pop gives 20."
+Write a C program to implement queue using array.,"Example: enqueue 10,20 then dequeue gives 10."
+Write a C program to create a singly linked list.,"Example: nodes 10,20,30 form 10->20->30."
+Write a C program to insert a node at beginning.,Example: 10->20 becomes 5->10->20.
+Write a C program to delete a node from linked list.,Example: deleting 20 from 10->20->30 gives 10->30.
+Write a C program to reverse a linked list.,Example: 10->20->30 becomes 30->20->10.
+Write a C program for binary search.,"Example: searching 7 in [1,3,7,9] finds 7."
+Write a C program for selection sort.,"Example: [3,1,2] becomes [1,2,3]."
+Write a C program for insertion sort.,"Example: [3,1,2] becomes [1,2,3]."
+Write a C program to count positive numbers in an array.,"Example: [-1,2,3,-4] has 2 positive numbers."
+Write a C program to calculate simple interest.,"Example: P=1000, R=10, T=2 gives 200 interest."
+Write a C program to calculate compound interest.,"Example: P=1000, R=10%, T=2 gives 210 interest."
+Write a C program to convert Celsius to Fahrenheit.,Example: 0°C becomes 32°F.
+Write a C program to convert Fahrenheit to Celsius.,Example: 32°F becomes 0°C.
+Write a C program to calculate area of a circle.,Example: radius 2 gives approximately 12.57.
+Write a C program to calculate area of a rectangle.,Example: 5 x 4 gives 20.
+Write a C program to check leap year.,Example: 2024 is a leap year.
+Write a C program to print numbers from 1 to N.,Example: N=5 prints 1 2 3 4 5.
+Write a C program to print numbers from N to 1.,Example: N=5 prints 5 4 3 2 1.
+Write a C program to print a star triangle.,"Example: 3 rows produce *, **, ***."
+Write a C program to print a number pyramid.,"Example: 3 rows can produce 1, 121, 12321."
+Write a C program to find average of array elements.,"Example: [10,20,30] gives 20."
+Write a C program to separate even and odd elements.,"Example: [1,2,3,4] gives evens [2,4] and odds [1,3]."
+Write a C program to find missing number from 1 to N.,"Example: [1,2,4,5] with N=5 has missing 3."
+Write a C program to find duplicate number in an array.,"Example: [1,2,3,2] has duplicate 2."
+Write a C program to rotate an array left by one position.,"Example: [1,2,3] becomes [2,3,1]."
+Write a C program to rotate an array right by one position.,"Example: [1,2,3] becomes [3,1,2]."
+Write a C program to check Armstrong number.,Example: 153 is an Armstrong number.
+Write a C program to print Armstrong numbers in a range.,"Example: 100 to 500 includes 153, 370, 371, 407."
+Write a C program to check perfect number.,Example: 6 is a perfect number.
+Write a C program to print perfect numbers in a range.,Example: up to 30 includes 6 and 28.
+Write a C program to count set bits in an integer.,Example: binary 1011 has 3 set bits.
+Write a C program to check whether a number is power of two.,Example: 16 is a power of two.
+"Write a C program to perform bitwise AND, OR, XOR.",Example: 5 XOR 3 gives 6.
+Write a C program to find maximum using ternary operator.,Example: 8 and 5 gives 8.
+Write a C program using switch to create a simple calculator.,Example: 10 + 5 gives 15.
+Write a C program to print ASCII value of a character.,Example: ASCII value of A is 65.
+Write a C program to convert lowercase to uppercase.,Example: 'a' becomes 'A'.
+Write a C program to count frequency of each character.,"Example: 'banana' has a:3, n:2, b:1."
+Write a C program to remove spaces from a string.,Example: 'a b c' becomes 'abc'.

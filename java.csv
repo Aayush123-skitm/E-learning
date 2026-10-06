@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,Java was developed by?,Guido van Rossum,James Gosling,Dennis Ritchie,Bjarne Stroustrup,op_b
+2,Java is a?,Database,Compiler,Programming Language,Operating System,op_c
+3,Java was originally called?,C++,Oak,Python,Smalltalk,op_b
+4,Which company developed Java?,Google,Oracle,Microsoft,Sun Microsystems,op_d
+5,Which keyword is used to create a class in Java?,class,Class,new,object,op_a
+6,Which method is the entry point of Java program?,start(),main(),run(),init(),op_b
+7,Which keyword is used to create an object?,new,class,this,create,op_a
+8,What is the extension of Java source file?,.cpp,.class,.java,.js,op_c
+9,JVM stands for?,Java Variable Method,Java Visual Model,Java Virtual Machine,Java Verified Machine,op_c
+10,JRE stands for?,Java Runtime Environment,Java Real Engine,Java Run Editor,Java Resource Engine,op_a
+11,JDK stands for?,Java Debug Kit,Java Development Kit,Java Data Kit,Java Design Kit,op_b
+12,Which feature makes Java platform independent?,Pointers,Bytecode,Hardware,Compiler,op_b
+13,Java bytecode runs on?,Compiler,RAM,JVM,CPU,op_c
+14,Which programming concept does Java support?,Assembly,Hardware Programming,Object Oriented Programming,Machine Language,op_c
+15,Which keyword is used for inheritance in Java?,extends,implements,class,inherit,op_a
+16,Which keyword is used to implement interface?,extends,inherit,interface,implements,op_d
+17,Which access modifier gives maximum accessibility?,private,default,public,protected,op_c
+18,Which access modifier allows access only within class?,private,public,protected,default,op_a
+19,Which data type stores integer values?,double,int,boolean,char,op_b
+20,Which data type stores decimal values?,char,double,int,boolean,op_b
+21,Which data type stores true or false?,String,float,boolean,int,op_c
+22,Which symbol is used for single line comments in Java?,//,#,/* */,--,op_a
+23,Which package is automatically imported in Java?,java.util,java.lang,java.io,java.net,op_b
+24,Which keyword is used to inherit a class?,super,extends,implements,this,op_b
+25,Which keyword refers to current object?,self,current,this,object,op_c
+26,Which keyword is used to call parent class constructor?,this,super,parent,base,op_b
+27,Which concept allows multiple forms of a method?,Inheritance,Polymorphism,Encapsulation,Abstraction,op_b
+28,Which concept hides implementation details?,Inheritance,Polymorphism,Abstraction,Encapsulation,op_d
+29,Which concept binds data and methods together?,Encapsulation,Inheritance,Interface,Package,op_a
+30,Which keyword is used to stop inheritance?,final,static,private,stop,op_a
+31,Which keyword is used to create constant variable?,const,final,static,constant,op_b
+32,Which keyword is used for class inheritance?,implements,extends,inherit,super,op_b
+33,Which keyword is used to access parent class members?,this,super,parent,base,op_b
+34,Which loop is used when number of iterations is known?,while,for,do-while,switch,op_b
+35,Which loop executes at least once?,for,while,do-while,if,op_c
+36,Which statement is used for multiple choices?,switch,loop,break,continue,op_a
+37,Which keyword exits from a loop?,continue,break,exit,stop,op_b
+38,Which keyword skips current iteration?,pass,continue,break,skip,op_b
+39,Which operator is used for logical AND in Java?,||,&&,!,&,op_b
+40,Which operator is used for logical OR in Java?,&&,||,!,%,op_b
+41,Which operator is used to compare values?,=,==,+=,++,op_b
+42,Which symbol is used for increment?,--,++,+=,**,op_b
+43,Which data type stores a single character?,char,String,int,float,op_a
+44,Which class is used to create strings in Java?,String,Text,Character,Str,op_a
+45,Strings in Java are?,Mutable,Immutable,Editable,Dynamic,op_b
+46,Which keyword is used to handle exceptions?,try,catch,throw,All of these,op_d
+47,Which block always executes after try-catch?,catch,finally,error,throw,op_b
+48,Which keyword is used to manually throw an exception?,throws,throw,error,exception,op_b
+49,Which keyword is used to declare an exception?,catch,throw,throws,try,op_c
+50,Which package contains Scanner class?,java.util,java.lang,java.io,java.net,op_a
+51,Which class is used for taking input from user?,Scanner,Input,Reader,System,op_a
+52,Which package contains Scanner class?,java.io,java.util,java.net,java.lang,op_b
+53,Which method is used to take integer input using Scanner?,nextInt(),getInt(),readInt(),inputInt(),op_a
+54,Which method is used to take string input using Scanner?,next(),getString(),read(),input(),op_a
+55,Which keyword is used to create an interface?,interface,class,implements,abstract,op_a
+56,Can a Java class implement multiple interfaces?,No,Only two,Yes,Only one,op_c
+57,Which keyword is used to define an abstract class?,abstract,interface,virtual,extends,op_a
+58,Can we create object of abstract class?,Yes,Only with constructor,No,Always,op_c
+59,Which method has no body in abstract class?,Normal method,Abstract method,Static method,Main method,op_b
+60,Which keyword is used to make a method static?,static,final,const,public,op_a
+61,Static members belong to?,Object,Class,Package,Constructor,op_b
+62,Which method can be called without creating object?,Static method,Private method,Final method,Abstract method,op_a
+63,Which keyword prevents method overriding?,extends,final,static,this,op_b
+64,Method overloading is achieved by?,Same method with different parameters,Same class name,Different packages,Inheritance only,op_a
+65,Method overriding occurs in?,Same class,Child class,Interface only,Package,op_b
+66,Constructor name should be same as?,Variable,Class,Method,Object,op_b
+67,Constructor has?,Return type,No return type,Static keyword,Parameter only,op_b
+68,Default constructor is created by?,Programmer only,Compiler,User,Operating System,op_b
+69,Which keyword is used to call current class constructor?,super,this,parent,base,op_b
+70,Which keyword is used to create package?,package,import,namespace,include,op_a
+71,Which keyword is used to use another package?,include,import,using,require,op_b
+72,Which access modifier is accessible everywhere?,private,protected,public,default,op_c
+73,Which access modifier is accessible within package?,public,private,default,protected,op_c
+74,Which keyword is used for exception handling?,try,catch,both try and catch,throw,op_c
+75,Which class is the parent of all Java classes?,Object,String,Class,System,op_a
+76,Which collection stores elements in key-value pairs?,ArrayList,HashMap,HashSet,LinkedList,op_b
+77,Which collection does not allow duplicate elements?,ArrayList,HashSet,Vector,Stack,op_b
+78,Which collection maintains insertion order?,HashSet,TreeSet,ArrayList,HashMap,op_c
+79,Which interface is implemented by ArrayList?,List,Set,Map,Queue,op_a
+80,Which class is used to create dynamic arrays?,ArrayList,String,Scanner,Thread,op_a
+81,Which method adds an element to ArrayList?,insert(),add(),push(),append(),op_b
+82,Which method removes an element from ArrayList?,delete(),remove(),erase(),clearOne(),op_b
+83,Which method returns size of collection?,length(),size(),count(),capacity(),op_b
+84,Which interface is used for key-value mapping?,List,Set,Map,Queue,op_c
+85,Which class stores unique sorted elements?,HashSet,TreeSet,ArrayList,HashMap,op_b
+86,Which class is used for multithreading?,Thread,Process,Run,Task,op_a
+87,Which method starts a thread?,run(),start(),begin(),execute(),op_b
+88,Which method contains thread code?,start(),main(),run(),execute(),op_c
+89,Which keyword is used for thread synchronization?,synchronized,thread,lock,sync,op_a
+90,Which package contains Thread class?,java.util,java.lang,java.io,java.net,op_b
+91,Which keyword is used to create exception manually?,throw,throws,try,catch,op_a
+92,Which keyword declares exceptions in method?,try,catch,throws,throw,op_c
+93,Which exception occurs when array index is invalid?,NullPointerException,ArrayIndexOutOfBoundsException,ArithmeticException,IOException,op_b
+94,Which exception occurs when object reference is null?,NullPointerException,ClassNotFoundException,IOException,NumberFormatException,op_a
+95,Which keyword is used to inherit interface?,extends,implements,inherit,interface,op_b
+96,Which file extension is generated after compilation?,.java,.class,.exe,.txt,op_b
+97,Which command compiles Java program?,java compile,javac,compile,runjava,op_b
+98,Which command runs Java bytecode?,execute,javac,java,javarun,op_c
+99,Java follows which memory management technique?,Manual allocation,Garbage Collection,Pointer Management,Stack Allocation,op_b
+100,Which component automatically removes unused objects?,Compiler,JVM,Garbage Collector,JDK,op_c

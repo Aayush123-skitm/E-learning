@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,What is Python?,Programming Language,Database,Operating System,Web Browser,op_a
+2,Who developed Python?,Guido van Rossum,Dennis Ritchie,James Gosling,Bjarne Stroustrup,op_a
+3,Python was released in which year?,1991,1985,2000,1995,op_a
+4,Which type of language is Python?,High-level Language,Low-level Language,Machine Language,Assembly Language,op_a
+5,Which extension is used for Python files?,.py,.java,.cpp,.html,op_a
+6,Which symbol is used for comments in Python?,#,//,/* */,--,op_a
+7,Which function is used to print output in Python?,print(),input(),display(),show(),op_a
+8,Which function is used to take input from user?,scan(),input(),read(),get(),op_b
+9,Which keyword is used to define a function?,def,func,function,define,op_a
+10,Which keyword is used to create a class?,class,object,struct,new,op_a
+11,Which data type stores whole numbers?,int,float,string,list,op_a
+12,Which data type stores decimal values?,float,int,bool,str,op_a
+13,Which data type stores text?,string,integer,float,list,op_a
+14,Which data type stores True or False values?,bool,int,float,char,op_a
+15,Which operator is used for addition?,+,*,/,%,op_a
+16,Which operator is used for multiplication?,+,*,//,-,op_b
+17,Which operator is used for exponent calculation?,**,%,//,/,op_a
+18,Which brackets are used to create a list?,[],(),{},<>,op_a
+19,Which brackets are used to create a tuple?,(),[],{},<>,op_a
+20,Which brackets are used to create a dictionary?,{},[],(),<>,op_a
+21,Which collection does not allow duplicate values?,Set,List,Tuple,String,op_a
+22,Which keyword is used for decision making?,if,for,while,def,op_a
+23,Which keyword is used for loop?,for,class,try,import,op_a
+24,Which keyword is used to stop a loop?,break,stop,exit,end,op_a
+25,Which keyword skips current iteration?,continue,skip,next,pass,op_a
+26,Which function is used to find length of a list?,count(),len(),size(),length(),op_b
+27,Which keyword is used to import a module?,include,import,using,require,op_b
+28,Which data type stores multiple values in key-value form?,List,Tuple,Dictionary,Set,op_c
+29,Which operator is used for floor division?,//,/,%,**,op_a
+30,Which function converts string into integer?,str(),float(),int(),bool(),op_c
+31,Which function converts integer into string?,int(),str(),float(),list(),op_b
+32,Which keyword is used to handle exceptions?,try,catch,exception,error,op_a
+33,Which block executes when exception occurs?,except,catch,finally,error,op_a
+34,Which keyword is used to create an anonymous function?,lambda,def,func,anonymous,op_a
+35,Which library is used for numerical operations?,NumPy,Pandas,Flask,Django,op_a
+36,Which library is used for data analysis?,Matplotlib,Pandas,NumPy,Tkinter,op_b
+37,Which library is used for data visualization?,Pandas,NumPy,Matplotlib,OS,op_c
+38,Which library is used for Machine Learning?,Scikit-learn,BeautifulSoup,Requests,PyGame,op_a
+39,What is the output type of input() function?,String,Integer,Float,List,op_a
+40,Which method adds an element to a list?,append(),add(),insertValue(),push(),op_a
+41,Which method removes an element from a list?,delete(),remove(),clearAll(),erase(),op_b
+42,Which keyword is used to create an object reference?,self,this,new,obj,op_a
+43,What does OOP stand for?,Object Oriented Programming,Object Output Program,Online Object Process,Open Operating Program,op_a
+44,Which concept allows one class to use another class properties?,Inheritance,Encapsulation,Looping,Iteration,op_a
+45,Which concept hides data from outside access?,Polymorphism,Encapsulation,Inheritance,Compilation,op_b
+46,Which concept allows same function with different behavior?,Inheritance,Abstraction,Polymorphism,Encapsulation,op_c
+47,Which method is called automatically when object is created?,main(),__init__(),start(),create(),op_b
+48,What is a class in Python?,Blueprint of object,Output value,Function,Module,op_a
+49,What is an object in Python?,Instance of a class,Variable,Loop,Package,op_a
+50,Which keyword is used to return a value from function?,return,send,give,output,op_a
+51,Which keyword is used to define a constructor in Python?,constructor,__init__(),init,create,op_b
+52,What does self represent in Python?,Class name,Current object,Function name,Variable,op_b
+53,Which method is used to add item in a set?,append(),add(),insert(),push(),op_b
+54,Which method is used to remove all elements from a list?,delete(),remove(),clear(),erase(),op_c
+55,Which function is used to get type of variable?,typeof(),type(),datatype(),check(),op_b
+56,Which keyword is used for inheritance in Python?,extends,class,inherit,super,op_d
+57,Which statement is used to check multiple conditions?,switch,elif,case,match,op_b
+58,Which operator is used for comparison?,+,==,*,%,op_b
+59,Which operator is used for logical AND?,OR,AND,&&,and,op_d
+60,Which operator is used for logical OR?,or,||,OR,add,op_a
+61,Which function is used to find maximum value?,min(),maximum(),max(),large(),op_c
+62,Which function is used to find minimum value?,small(),min(),minimum(),low(),op_b
+63,Which function returns absolute value?,abs(),absolute(),value(),mod(),op_a
+64,Which module is used to work with dates and time?,time,date,datetime,calendar,op_c
+65,Which file mode is used to read a file?,w,r,a,x,op_b
+66,Which file mode is used to write data?,r,w,a,read,op_b
+67,Which file mode adds data at the end of file?,w,r,a,x,op_c
+68,Which function is used to open a file?,file(),open(),read(),load(),op_b
+69,Which function is used to close a file?,stop(),close(),exit(),end(),op_b
+70,Which exception occurs when dividing by zero?,ValueError,TypeError,ZeroDivisionError,NameError,op_c
+71,Which exception occurs for invalid data type operation?,TypeError,ValueError,KeyError,IndexError,op_a
+72,Which exception occurs when dictionary key is not found?,IndexError,KeyError,NameError,FileError,op_b
+73,Which keyword is used to create a generator?,yield,return,generator,gen,op_a
+74,Which function is used to iterate with index?,range(),enumerate(),index(),iterate(),op_b
+75,Which keyword is used to create a loop that runs while condition is true?,for,while,loop,repeat,op_b
+76,Which keyword is used to create a generator function?,return,yield,generate,iterator,op_b
+77,Which function is used to get user input?,scan(),input(),read(),get(),op_b
+78,Which method is used to convert string to lowercase?,lower(),caseLower(),small(),down(),op_a
+79,Which method is used to convert string to uppercase?,upper(),capital(),upcase(),large(),op_a
+80,Which method removes spaces from both ends of string?,trim(),strip(),remove(),cut(),op_b
+81,Which method splits a string into a list?,split(),divide(),break(),slice(),op_a
+82,Which method joins list elements into a string?,join(),combine(),merge(),connect(),op_a
+83,Which keyword is used to create an iterator?,iter,iterator,next,loop,op_a
+84,Which function returns next item from iterator?,next(),get(),move(),iterate(),op_a
+85,Which keyword is used to handle resources automatically?,with,auto,using,manage,op_a
+86,Which module is used for working with JSON data?,json,data,object,parser,op_a
+87,Which function converts Python object into JSON string?,loads(),dumps(),convert(),encode(),op_b
+88,Which function converts JSON string into Python object?,loads(),dumps(),parse(),decode(),op_a
+89,Which data structure follows FIFO principle?,Stack,Queue,Tree,Graph,op_b
+90,Which data structure follows LIFO principle?,Queue,Stack,List,Array,op_b
+91,Which keyword is used to create a virtual environment?,venv,virtual,env,create,op_a
+92,Which command is used to install Python packages?,python install,pip install,package install,install python,op_b
+93,Which keyword is used to define a module?,import,module,package,def,op_d
+94,Which function gives all keys of dictionary?,keys(),values(),items(),get(),op_a
+95,Which function gives all values of dictionary?,keys(),values(),items(),get(),op_b
+96,Which function gives key-value pairs of dictionary?,keys(),values(),items(),pairs(),op_c
+97,Which operator is used for membership checking?,in,is,contains,check,op_a
+98,Which operator checks object identity?,==,is,equals,identity,op_b
+99,Which keyword is used to create a package?,package,import,folder,python,op_a
+100,Which tool is commonly used to manage Python packages?,PIP,NPM,Maven,Composer,op_a

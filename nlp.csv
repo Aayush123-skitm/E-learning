@@ -1,0 +1,101 @@
+q_numb,qus,op_a,op_b,op_c,op_d,correct_ans
+1,What does NLP stand for?,Natural Learning Process,Network Language Processing,Natural Language Processing,Neural Language Program,op_c
+2,NLP is a branch of which field?,Database,Artificial Intelligence,Operating System,Networking,op_b
+3,Which type of data is mainly processed in NLP?,Text Data,Image Data,Database Table,Hardware Data,op_a
+4,Which technique breaks text into smaller units?,Classification,Tokenization,Regression,Clustering,op_b
+5,What is a token in NLP?,A model file,A database row,A word or symbol in text,A programming language,op_c
+6,Which library is commonly used for NLP in Python?,NLTK,NumPy,Django,Flask,op_a
+7,What is the full form of NLTK?,Natural Logic Tool,Neural Learning Toolkit,Natural Language Toolkit,New Language Tool Kit,op_c
+8,Which NLP task identifies names of people and places?,Parsing,Stemming,Named Entity Recognition,Tokenization,op_c
+9,What is stemming in NLP?,Removing sentences,Reducing words to root form,Creating models,Translating text,op_b
+10,What is lemmatization?,Sorting words,Creating tokens,Converting words to meaningful base form,Removing data,op_c
+11,Which technique removes common words from text?,Embedding,Tokenization,Parsing,Stop Word Removal,op_d
+12,What are stop words?,Important keywords,Common words like is and the,Model parameters,Programming words,op_b
+13,Which method converts text into numerical form?,Text Vectorization,Compilation,Sorting,Data Cleaning,op_a
+14,What does TF-IDF stand for?,Token Frequency Data,Term Frequency-Inverse Document Frequency,Text File Information Data,Total Frequency Index,op_b
+15,TF-IDF is used for?,Database design,Text representation,Network security,Image processing,op_b
+16,Which algorithm is commonly used for text classification?,Sorting,Linear Search,Naive Bayes,Compiler,op_c
+17,What is sentiment analysis?,Finding emotions from text,Finding images,Data storage,Code execution,op_a
+18,What is POS tagging?,Creating databases,Removing words,Assigning parts of speech to words,Translating language,op_c
+19,What does POS stand for?,Pattern of Sentence,Point of Search,Process of System,Part of Speech,op_d
+20,Which model represents words as vectors?,Database Model,Compiler,Word Embedding,Decision Tree,op_c
+21,Word2Vec is used for?,File handling,Word representation,Database query,Image classification,op_b
+22,What is a corpus in NLP?,Collection of text documents,Algorithm,Computer memory,Hardware,op_a
+23,Which NLP task translates one language to another?,Classification,Machine Translation,Clustering,Tokenization,op_b
+24,What is language modeling?,Predicting next words in sequence,Deleting text,Creating images,Sorting data,op_a
+25,Which model is used for modern NLP applications?,Stack,Compiler,Transformer,Queue,op_c
+26,What is the purpose of tokenization?,Remove images,Convert text into smaller units,Translate language,Create database,op_b
+27,Which technique reduces words to their root form?,Embedding,Classification,Stemming,Parsing,op_c
+28,Which technique converts words into meaningful base forms?,Regression,Lemmatization,Tokenization,Clustering,op_b
+29,What is Named Entity Recognition used for?,Creating vectors,Removing stop words,Finding entities like names and locations,Sorting data,op_c
+30,Which model is based on attention mechanism?,Transformer,KNN,Decision Tree,Naive Bayes,op_a
+31,What is BERT in NLP?,Programming language,A language model,Database system,Sorting algorithm,op_b
+32,BERT stands for?,Better Entity Recognition Tool,Bidirectional Encoder Representations from Transformers,Binary Text Representation,Basic Encoder Reading Technique,op_b
+33,Which model is developed by OpenAI for language tasks?,SQL,CNN,GPT,HTML,op_c
+34,What does GPT stand for?,Generated Program Text,Generative Pre-trained Transformer,Graph Processing Technique,General Processing Tool,op_b
+35,What is text classification?,Deleting text,Creating images,Assigning categories to text,Compressing files,op_c
+36,Which technique measures similarity between documents?,Cosine Similarity,Encryption,Sorting,Compilation,op_a
+37,What is cosine similarity used for?,Training hardware,Removing words,Measuring similarity between vectors,Creating databases,op_c
+38,What is Bag of Words model?,Operating system,Text representation technique,Database model,Image model,op_b
+39,What does BoW ignore in text?,Characters,Words,Word order,Sentences,op_c
+40,Which technique captures word meaning using vectors?,Parsing,Tokenization,Word Embedding,Stemming,op_c
+41,Which is a popular word embedding method?,CSS,SQL,Word2Vec,HTML,op_c
+42,What is GloVe used for?,File handling,Word representation,Database management,Image processing,op_b
+43,What is parsing in NLP?,Sorting numbers,Analyzing sentence structure,Creating images,Removing stop words,op_b
+44,What is syntax in NLP?,Sentence structure,Data size,Model accuracy,Word color,op_a
+45,What is semantics in NLP?,Meaning of words and sentences,File format,Number of words,Programming syntax,op_a
+46,Which NLP task answers questions from text?,Sorting,Question Answering,Clustering,Regression,op_b
+47,What is text summarization?,Creating database,Creating shorter summary of text,Deleting text,Translating code,op_b
+48,Which NLP task converts speech into text?,Tokenization,Stemming,Speech Recognition,Classification,op_c
+49,Which NLP task converts text into speech?,Text to Speech,Parsing,Speech Recognition,Embedding,op_a
+50,What is machine translation?,Model training,Translation between languages,Text removal,Data cleaning,op_b
+51,Which algorithm is used for sequence modeling?,PCA,RNN,K-Means,Linear Regression,op_b
+52,RNN is useful for which type of data?,Database Data,Random Data,Sequential Data,Image Data,op_c
+53,LSTM is a type of?,Compiler,Database,Neural Network,Sorting Method,op_c
+54,What problem does LSTM help solve?,Long-term dependencies,File errors,Database failure,Data deletion,op_a
+55,What is attention mechanism used for?,Create files,Focus on important parts of input,Delete words,Sort data,op_b
+56,Which model uses self-attention?,SVM,Transformer,KNN,RNN,op_b
+57,What is a language model used for?,Managing files,Deleting text,Predicting next words,Creating images,op_c
+58,What is perplexity used to evaluate?,Networks,Databases,Language models,Operating systems,op_c
+59,What is ambiguity in NLP?,Code error,Multiple meanings of words,Data storage,Image quality,op_b
+60,What is stop word removal?,Creating models,Adding words,Removing common words,Translating text,op_c
+61,Which library provides NLP tools in Python?,Flask,NLTK,NumPy,Matplotlib,op_b
+62,Which library is used for advanced NLP models?,OS,Transformers,Tkinter,Pygame,op_b
+63,What is spaCy used for?,Web hosting,Game development,NLP processing,Database design,op_c
+64,What is a vocabulary in NLP?,Collection of unique words,Hardware,Programming code,Image data,op_a
+65,What is out-of-vocabulary word?,Repeated word,Word not present in vocabulary,Stop word,Common word,op_b
+66,What is text preprocessing?,Model deletion,Database backup,Cleaning and preparing text,Creating hardware,op_c
+67,Which step removes unnecessary characters?,Prediction,Deployment,Text Cleaning,Classification,op_c
+68,What is normalization in NLP?,Sorting data,Creating images,Converting text into standard form,Removing all words,op_c
+69,What is stemming drawback?,Creates images,May produce incorrect root words,Deletes data,Improves hardware,op_b
+70,Which metric evaluates text generation quality?,BLEU,Accuracy,MSE,R2 Score,op_a
+71,BLEU score is mainly used for?,Clustering,Machine Translation,Database Query,Image Classification,op_b
+72,What is ROUGE score used for?,Regression,Encryption,Text summarization evaluation,Sorting,op_c
+73,What is a chatbot?,Database,Software that communicates using language,Compiler,Operating system,op_b
+74,Large Language Models are based on?,Networking,Deep Learning,Database,Sorting,op_b
+75,Which architecture powers modern LLMs?,Array,Queue,Transformer,Stack,op_c
+76,What is machine learning in NLP?,Learning patterns from language data,Database management,File compression,Image editing,op_a
+77,What is a corpus in NLP?,Collection of text documents,Computer memory,Algorithm,Hardware device,op_a
+78,Which method converts words into numerical vectors?,Tokenization,Word Embedding,Parsing,Stemming,op_b
+79,What is the full form of AI?,Artificial Intelligence,Automatic Input,Advanced Internet,Artificial Integration,op_a
+80,What is the full form of NLP?,Natural Language Processing,Network Language Program,New Language Process,Neural Logic Processing,op_a
+81,Which NLP task identifies emotions in text?,Sentiment Analysis,Tokenization,Parsing,Stemming,op_a
+82,What is document classification?,Assigning documents into categories,Deleting documents,Creating images,Sorting files,op_a
+83,Which model is used for text generation?,GPT,SQL,HTML,CSS,op_a
+84,What is GPT mainly used for?,Language generation,Database queries,Image storage,File management,op_a
+85,What is an embedding?,Vector representation of words,Database table,Programming code,Hardware,op_a
+86,Which technique removes unwanted words?,Stop Word Removal,Classification,Regression,Clustering,op_a
+87,What is machine translation used for?,Converting one language to another,Removing data,Creating models,Sorting words,op_a
+88,Which NLP task extracts information from text?,Information Extraction,Tokenization,Regression,Compilation,op_a
+89,What is text mining?,Extracting useful information from text,Creating hardware,Deleting files,Database backup,op_a
+90,Which method is used for text similarity?,Cosine Similarity,Sorting,Encryption,Compilation,op_a
+91,What is a chatbot based on?,Natural Language Processing,Database only,Operating system,Compiler,op_a
+92,Which model architecture replaced many RNN-based models?,Transformer,Stack,Queue,Array,op_a
+93,What is the main goal of NLP?,Enable computers to understand human language,Create hardware,Manage files,Design websites,op_a
+94,Which NLP task converts speech into text?,Speech Recognition,Text Cleaning,Classification,Embedding,op_a
+95,Which NLP task converts text into speech?,Text to Speech,Parsing,Tokenization,Stemming,op_a
+96,What is semantic analysis?,Understanding meaning of text,Removing spaces,Sorting words,Creating tables,op_a
+97,What is syntax analysis?,Analyzing sentence structure,Finding images,Deleting data,Training hardware,op_a
+98,Which model is used in many modern NLP applications?,Transformer,Queue,Stack,Array,op_a
+99,What is the purpose of NLP?,Human-computer language interaction,Database creation,Hardware repair,File storage,op_a
+100,Which field combines linguistics and AI?,Natural Language Processing,Networking,Operating System,Computer Graphics,op_a

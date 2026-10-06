@@ -1,0 +1,201 @@
+﻿question,example
+What is C++?,"A general-purpose programming language supporting procedural, object-oriented, and generic programming."
+What is a class?,A user-defined type that bundles data and member functions.
+What is an object?,An instance of a class.
+What is encapsulation?,Combining data and methods while controlling access to internal details.
+What is inheritance?,Deriving a class from another class to reuse or extend behavior.
+What is polymorphism?,Allowing the same interface to represent different implementations.
+What is abstraction?,Exposing essential behavior while hiding implementation details.
+What is a constructor?,A special member function used to initialize an object.
+What is a destructor?,A member function invoked when an object is destroyed.
+What is a virtual function?,A function enabling dynamic dispatch through a base-class interface.
+What is a pure virtual function?,A virtual function declared with = 0 that makes the class abstract.
+What is an abstract class?,"A class that cannot be instantiated directly, commonly because it has a pure virtual function."
+What is function overloading?,Multiple functions with the same name but different parameter lists.
+What is operator overloading?,Defining how operators behave for user-defined types.
+What is function overriding?,A derived class provides a new implementation of an inherited virtual function.
+What is a virtual destructor?,A destructor declared virtual so deleting through a base pointer invokes the derived destructor.
+What is a friend function?,A non-member function allowed to access private/protected members of a class.
+What is a friend class?,A class granted access to another class's private and protected members.
+What is a namespace?,A named scope used to organize identifiers and reduce naming conflicts.
+What is std namespace?,The standard C++ library names are commonly placed in namespace std.
+What is STL?,"The Standard Template Library provides containers, algorithms, iterators, and related utilities."
+What is vector?,A dynamic contiguous sequence container.
+Vector vs array?,A vector can resize dynamically; a built-in array has fixed size.
+What is list?,A doubly linked list container in the standard library.
+What is deque?,A double-ended sequence container supporting insertion/removal at both ends.
+What is stack?,A LIFO container adaptor.
+What is queue?,A FIFO container adaptor.
+What is priority_queue?,A container adaptor that provides access to the highest-priority element.
+What is map?,An ordered associative container of key-value pairs.
+What is unordered_map?,A hash-based associative container.
+map vs unordered_map?,map is ordered with logarithmic operations typically; unordered_map uses hashing with average constant-time lookup.
+What is set?,An ordered container of unique keys.
+What is unordered_set?,A hash-based container of unique keys.
+What is an iterator?,An object used to traverse elements of a container.
+What are templates?,A feature for writing generic code parameterized by types or values.
+What is function template?,A generic function that can work with multiple types.
+What is class template?,A generic class definition parameterized by types or values.
+What is RAII?,Resource Acquisition Is Initialization; resource lifetime is tied to object lifetime.
+What is smart pointer?,A class that manages dynamically allocated objects automatically.
+What is unique_ptr?,A smart pointer representing exclusive ownership.
+What is shared_ptr?,A smart pointer using shared ownership through reference counting.
+What is weak_ptr?,A non-owning smart pointer used with shared_ptr to avoid ownership cycles.
+What is move semantics?,A mechanism allowing resources to be transferred from temporary or movable objects.
+What is rvalue reference?,A reference type written && used for binding to rvalues and supporting move semantics.
+What is lvalue reference?,A reference that can bind to an lvalue.
+What is copy constructor?,A constructor that creates an object from another object of the same type.
+What is copy assignment?,Assignment that copies the state from one existing object to another.
+Rule of three?,"If a class manages resources and defines destructor, copy constructor, or copy assignment, it often needs all three."
+Rule of five?,The rule of three extended with move constructor and move assignment.
+Rule of zero?,Prefer types that need no custom special member functions by using RAII members.
+What is shallow copy?,"Copying member values directly, which may duplicate pointers without duplicating pointed-to resources."
+What is deep copy?,Copying the owned resource itself so objects have independent resources.
+What is pointer?,A variable that stores a memory address.
+What is reference?,An alias for another object or function.
+Pointer vs reference?,A pointer stores an address and can be null/reassigned; a reference is an alias with different binding rules.
+What is nullptr?,A type-safe null pointer literal introduced in modern C++.
+What is this pointer?,A pointer to the current object.
+What is static member?,A class member shared by all objects of that class.
+What is const member function?,A member function that promises not to modify the object's observable non-mutable state.
+What is constexpr?,A specifier enabling compile-time evaluation when conditions permit.
+What is inline?,A specifier that permits multiple definitions under ODR rules and can suggest inlining; it does not force optimization.
+What is exception handling?,"Handling errors using try, catch, and throw."
+What is throw?,It signals an exception.
+What is catch?,It handles a matching thrown exception.
+What is RAII useful for?,"It provides automatic cleanup for resources such as memory, files, and locks."
+What is a lambda?,An anonymous function object that can be defined inline.
+What is capture list in lambda?,It specifies which surrounding variables a lambda can access and how.
+What is range-based for loop?,A loop syntax for iterating over elements of a range.
+What is auto keyword?,It lets the compiler deduce a variable's type from its initializer.
+What is decltype?,It obtains the type of an expression.
+What is type casting?,Converting a value or expression to another compatible type.
+static_cast vs dynamic_cast?,static_cast performs compile-time checked conversions; dynamic_cast supports checked polymorphic downcasting at runtime.
+What is dynamic_cast?,A runtime-checked cast for polymorphic class hierarchies.
+What is const_cast?,A cast that adds or removes cv-qualification.
+What is reinterpret_cast?,A low-level cast for certain unrelated pointer/reference representations.
+What is segmentation fault?,Invalid memory access that can terminate the program.
+What is memory leak?,Allocated memory that is not released when no longer needed.
+What is dangling pointer?,A pointer referring to an object whose lifetime has ended.
+What is buffer overflow?,Writing outside the bounds of a buffer.
+What is stack memory?,Memory commonly used for automatic storage and function call frames.
+What is heap memory?,Dynamically allocated storage.
+new vs malloc?,new constructs objects and returns typed pointers; malloc allocates raw storage and does not call constructors.
+delete vs free?,delete destroys an object and releases storage allocated by new; free releases malloc-family storage.
+What is segmentation-safe code?,Code that accesses only valid memory and respects object lifetimes and bounds.
+What is virtual table?,A common implementation technique for dynamic dispatch using a table of virtual function addresses.
+What is multiple inheritance?,A class deriving from more than one base class.
+What is diamond problem?,Ambiguity caused by multiple inheritance when two paths lead to the same base class.
+How can virtual inheritance help?,It allows a shared virtual base subobject in a diamond hierarchy.
+What is object slicing?,Loss of derived-class-specific state when a derived object is copied into a base object by value.
+What is composition?,Building a class using objects of other classes as members.
+Composition vs inheritance?,Composition models has-a relationships; inheritance commonly models is-a relationships.
+What is aggregation?,A weaker has-a relationship where contained objects can exist independently.
+What is ODR?,One Definition Rule governing allowable definitions in a C++ program.
+What is header guard?,A mechanism preventing a header from being included multiple times in one translation unit.
+What is preprocessor directive?,"An instruction processed before compilation, such as #include or #define."
+What is a translation unit?,"A source file after preprocessing, including included headers."
+What is linker?,A tool that combines object files and libraries into a final program.
+What is compile-time polymorphism?,"Polymorphism resolved during compilation, such as function overloading and templates."
+What is runtime polymorphism?,"Polymorphism resolved during execution, commonly through virtual functions."
+What is Big O?,A notation describing how algorithmic cost grows with input size.
+What is binary search?,A search over sorted data that repeatedly halves the search range.
+What is recursion?,A function or method calling itself with a base case.
+Write a C++ program to print Hello World.,Example: Hello World
+Write a C++ program to add two integers.,Example: 10 and 20 gives 30.
+Write a C++ program to find largest of two numbers.,Example: 8 and 5 gives 8.
+Write a C++ program to find largest of three numbers.,"Example: 4,9,6 gives 9."
+Write a C++ program to check even or odd.,Example: 7 is odd.
+"Write a C++ program to check positive, negative, or zero.",Example: -3 is negative.
+Write a C++ program to calculate factorial.,Example: factorial of 5 is 120.
+Write a C++ program to print multiplication table.,"Example: table of 5 starts 5,10,15."
+Write a C++ program to reverse a number.,Example: 1234 becomes 4321.
+Write a C++ program to check palindrome number.,Example: 121 is palindrome.
+Write a C++ program to check prime number.,Example: 17 is prime.
+Write a C++ program to print primes in a range.,"Example: 1 to 10 gives 2,3,5,7."
+Write a C++ program to generate Fibonacci series.,"Example: first 7 terms are 0,1,1,2,3,5,8."
+Write a C++ program to find sum of digits.,Example: 123 gives 6.
+Write a C++ program to count digits.,Example: 9876 has 4 digits.
+Write a C++ program to find GCD.,Example: GCD of 12 and 18 is 6.
+Write a C++ program to find LCM.,Example: LCM of 4 and 6 is 12.
+Write a C++ program to swap two numbers.,Example: 5 and 9 become 9 and 5.
+Write a C++ program to find sum of vector elements.,"Example: [1,2,3,4] gives 10."
+Write a C++ program to find maximum element.,"Example: [3,8,2] gives 8."
+Write a C++ program to find minimum element.,"Example: [3,8,2] gives 2."
+Write a C++ program to count even elements.,"Example: [1,2,4,5] has 2 even numbers."
+Write a C++ program to reverse a vector.,"Example: [1,2,3] becomes [3,2,1]."
+Write a C++ program to search using linear search.,"Example: search 7 in [3,7,9] finds 7."
+Write a C++ program to sort using bubble sort.,"Example: [3,1,2] becomes [1,2,3]."
+Write a C++ program to remove duplicates from vector.,"Example: [1,2,2,3] becomes [1,2,3]."
+Write a C++ program to find second largest.,"Example: [5,9,2,7] gives 7."
+Write a C++ program to find average of vector.,"Example: [10,20,30] gives 20."
+Write a C++ program to reverse a string.,Example: 'hello' becomes 'olleh'.
+Write a C++ program to check string palindrome.,Example: 'madam' is palindrome.
+Write a C++ program to count vowels.,Example: 'hello' has 2 vowels.
+Write a C++ program to count words.,Example: 'I love C++' has 3 words.
+Write a C++ program to count uppercase and lowercase letters.,Example: 'AbC' has 2 uppercase and 1 lowercase.
+Write a C++ program to concatenate strings.,Example: 'hello' + 'world' gives 'helloworld'.
+Write a C++ program to remove spaces from string.,Example: 'a b c' becomes 'abc'.
+Write a C++ program to find character frequency.,"Example: 'banana' has a:3, n:2, b:1."
+Write a C++ program to find first non-repeating character.,Example: 'swiss' gives 'w'.
+Create a Student class with name and marks.,Example: student Aayush with marks 85.
+Create a C++ program demonstrating constructor.,Example: creating Student initializes its name.
+Create a C++ program demonstrating inheritance.,Example: Car derives from Vehicle.
+Create a C++ program demonstrating polymorphism.,Example: Animal pointer calls Dog's overridden sound.
+Create an abstract Shape class.,Example: Shape has pure virtual area().
+Create a C++ program demonstrating function overloading.,"Example: add(2,3) and add(2,3,4)."
+Create a C++ program demonstrating operator overloading.,Example: add two Complex objects using +.
+Create a C++ program using vector.,Example: store and print 3 integers.
+Create a C++ program using map.,Example: map roll numbers to names.
+Create a C++ program using unordered_map.,Example: count frequencies of integers.
+Create a C++ program using set.,Example: duplicate values are stored once.
+Create a C++ program using stack.,"Example: push 10,20 then pop gives 20."
+Create a C++ program using queue.,"Example: push 10,20 then pop gives 10."
+Create a C++ program using priority_queue.,Example: highest value is returned first.
+Create a C++ program using sort.,"Example: [3,1,2] becomes [1,2,3]."
+Create a C++ program using lambda.,Example: print each value in a vector.
+Create a C++ program using range-based for.,Example: print all vector elements.
+Create a C++ program using auto.,Example: auto x=10 deduces int.
+Create a C++ program using smart pointer unique_ptr.,Example: unique_ptr manages a dynamically created object.
+Create a C++ program using shared_ptr.,Example: two shared pointers share one object.
+Create a C++ program demonstrating move semantics.,Example: vector contents are moved to another vector.
+Create a C++ program with try-catch.,Example: invalid operation throws and is caught.
+Create a custom exception example.,Example: throw when age is below 18.
+Create a C++ program to read a file.,Example: print lines from a text file.
+Create a C++ program to write a file.,Example: write 'Hello C++' to a file.
+Create a C++ program to count file lines.,Example: a file with 3 lines returns 3.
+Create a C++ program to calculate simple interest.,"Example: P=1000,R=10,T=2 gives 200."
+Create a C++ program to calculate compound interest.,"Example: P=1000,R=10%,T=2 gives 210."
+Create a C++ program to convert Celsius to Fahrenheit.,Example: 0°C becomes 32°F.
+Create a C++ program to calculate circle area.,Example: radius 2 gives approximately 12.57.
+Create a C++ program to check leap year.,Example: 2024 is a leap year.
+Create a C++ program to print numbers 1 to N.,Example: N=5 prints 1 2 3 4 5.
+Create a C++ program to print star triangle.,"Example: 3 rows produce *, **, ***."
+Create a C++ program to print number pyramid.,"Example: 3 rows can produce 1,121,12321."
+Create a C++ program to find missing number.,"Example: [1,2,4,5] has missing 3."
+Create a C++ program to find duplicate number.,"Example: [1,2,3,2] has duplicate 2."
+Create a C++ program to rotate vector left.,"Example: [1,2,3] becomes [2,3,1]."
+Create a C++ program to rotate vector right.,"Example: [1,2,3] becomes [3,1,2]."
+Create a C++ program to check Armstrong number.,Example: 153 is Armstrong.
+Create a C++ program to check perfect number.,Example: 6 is perfect.
+Create a C++ program to count set bits.,Example: binary 1011 has 3 set bits.
+Create a C++ program to check power of two.,Example: 16 is a power of two.
+Create a C++ calculator using switch.,Example: 10 + 5 gives 15.
+Create a C++ program to print ASCII value.,Example: ASCII value of A is 65.
+Create a C++ program to convert lowercase to uppercase.,Example: 'a' becomes 'A'.
+Create a C++ program to implement binary search.,"Example: search 7 in [1,3,7,9] finds 7."
+Create a C++ program to implement selection sort.,"Example: [3,1,2] becomes [1,2,3]."
+Create a C++ program to implement insertion sort.,"Example: [3,1,2] becomes [1,2,3]."
+Create a C++ program for recursive factorial.,Example: factorial(4) returns 24.
+Create a C++ program for recursive Fibonacci.,"Example: sequence starts 0,1,1,2,3."
+Create a C++ program to implement stack using array.,"Example: push 10,20 then pop gives 20."
+Create a C++ program to implement queue using array.,"Example: enqueue 10,20 then dequeue gives 10."
+Create a C++ program for singly linked list.,Example: 10->20->30.
+Create a C++ program to reverse linked list.,Example: 10->20->30 becomes 30->20->10.
+Create a C++ program to merge two vectors.,"Example: [1,2] and [3,4] gives [1,2,3,4]."
+Create a C++ program to add two matrices.,"Example: [[1,2],[3,4]] + [[1,1],[1,1]] gives [[2,3],[4,5]]."
+Create a C++ program to transpose matrix.,"Example: [[1,2],[3,4]] becomes [[1,3],[2,4]]."
+Create a C++ program to find diagonal sum.,"Example: [[1,2],[3,4]] gives 5."
+Create a C++ program to count positive and negative values.,"Example: [-1,2,-3,4] gives 2 positive and 2 negative."
+Create a C++ program demonstrating static member.,Example: all objects share one class-level counter.
+Create a C++ program demonstrating const member function.,Example: getName() does not modify the object.
